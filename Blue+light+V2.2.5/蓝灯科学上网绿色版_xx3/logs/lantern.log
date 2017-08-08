@@ -1,0 +1,762 @@
+Sep 20 14:30:34.726 - 0m0s DEBUG i18n: translate.go:106 Setting locale zh_CN
+Sep 20 14:30:34.752 - 0m0s DEBUG flashlight: flashlight.go:152 ---- flashlight version: 2.2.5, release: 2.2.5, build revision date: 20160627.192617 ----
+Sep 20 14:30:34.753 - 0m0s DEBUG flashlight: flashlight.go:79 Initializing configuration
+Sep 20 14:30:34.753 - 0m0s DEBUG flashlight.config: config.go:206 Using config dir C:\Users\王大立\AppData\Roaming\Lantern
+Sep 20 14:30:34.753 - 0m0s DEBUG flashlight.config: config.go:122 Checking config path: C:\Users\王大立\AppData\Roaming\Lantern\lantern-2.2.5.yaml
+Sep 20 14:30:34.753 - 0m0s DEBUG flashlight.config: config.go:82 File does not exist at C:\Users\王大立\AppData\Roaming\Lantern\lantern-2.2.5.yaml
+Sep 20 14:30:34.754 - 0m0s DEBUG flashlight.config: bootstrap.go:140 Opening bootstrap file from: C:\Users\王大立\AppData\Roaming\Lantern\lantern.yaml
+Sep 20 14:30:34.754 - 0m0s DEBUG tarfs: tarfs.go:57 Using local filesystem at C:\Users\王大立\AppData\Roaming\Lantern
+Sep 20 14:30:35.169 - 0m1s DEBUG yamlconf: yamlconf_disk.go:52 Configuration changed on disk, applying
+Sep 20 14:30:35.169 - 0m1s DEBUG yamlconf: yamlconf.go:152 Loading per session setup
+Sep 20 14:30:35.376 - 0m1s DEBUG yamlconf: yamlconf_disk.go:86 Configuration changed programmatically, saving
+Sep 20 14:30:36.162 - 0m1s DEBUG flashlight.config: config.go:179 Returning config
+Sep 20 14:30:36.163 - 0m1s DEBUG flashlight: main.go:183 Got first config
+Sep 20 14:30:36.207 - 0m2s DEBUG flashlight.config: bootstrap.go:140 Opening bootstrap file from: C:\Users\王大立\AppData\Roaming\Lantern\.packaged-lantern.yaml
+Sep 20 14:30:36.207 - 0m2s DEBUG flashlight.config: bootstrap.go:57 Opening file at: C:\Users\王大立\AppData\Roaming\Lantern\.packaged-lantern.yaml
+Sep 20 14:30:36.208 - 0m2s DEBUG flashlight.config: bootstrap.go:68 Read bytes: startupurl:
+Sep 20 14:30:36.208 - 0m2s DEBUG flashlight: main.go:221 Starting client UI at 127.0.0.1:16823
+Sep 20 14:30:36.209 - 0m2s DEBUG flashlight.ui: ui.go:139 UI available at http://127.0.0.1:16823
+Sep 20 14:30:36.209 - 0m2s DEBUG flashlight: flashlight.go:88 Preparing to start client proxy
+Sep 20 14:30:36.209 - 0m2s DEBUG flashlight.geolookup: geolookup.go:68 Requested refresh
+Sep 20 14:30:36.210 - 0m2s DEBUG fronted: direct.go:40 Configuring fronted
+Sep 20 14:30:36.210 - 0m2s DEBUG fronted: direct.go:71 Loading candidates
+Sep 20 14:30:36.228 - 0m2s DEBUG fronted: direct.go:85 Vetting 20 initial candidates in parallel
+Sep 20 14:30:36.228 - 0m2s DEBUG flashlight.client: client.go:155 Configure() called
+Sep 20 14:30:36.228 - 0m2s DEBUG flashlight.client: client.go:167 Client configuration initialized
+Sep 20 14:30:36.228 - 0m2s DEBUG flashlight.client: client.go:168 Requiring minimum QOS of 0
+Sep 20 14:30:36.228 - 0m2s DEBUG flashlight.client: client.go:170 Proxy all traffic or not: false
+Sep 20 14:30:36.228 - 0m2s DEBUG flashlight.client: balancer.go:34 Adding 2 chained servers
+Sep 20 14:30:36.229 - 0m2s DEBUG flashlight.client: balancer.go:38 Adding chained server: 104.236.117.243:36135
+Sep 20 14:30:36.229 - 0m2s DEBUG flashlight.client: balancer.go:38 Adding chained server: 139.59.245.88:59738
+Sep 20 14:30:36.234 - 0m2s DEBUG geolookup: geolookup.go:133 Fetching ip...
+Sep 20 14:30:36.235 - 0m2s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x53e6d0
+Sep 20 14:30:36.235 - 0m2s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:36.235 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.197.123}
+Sep 20 14:30:36.236 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.212.177}
+Sep 20 14:30:36.237 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.205.33}
+Sep 20 14:30:36.238 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.150.37}
+Sep 20 14:30:36.238 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.132}
+Sep 20 14:30:36.239 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{custom-origin.cloudfront-test.net 54.182.199.134}
+Sep 20 14:30:36.239 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.55}
+Sep 20 14:30:36.240 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.222.158}
+Sep 20 14:30:36.240 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.191}
+Sep 20 14:30:36.241 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.67}
+Sep 20 14:30:36.241 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.248}
+Sep 20 14:30:36.242 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.72}
+Sep 20 14:30:36.243 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.201.156}
+Sep 20 14:30:36.243 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.192.53}
+Sep 20 14:30:36.244 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.25}
+Sep 20 14:30:36.244 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.223.95}
+Sep 20 14:30:36.245 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.228}
+Sep 20 14:30:36.246 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.207.200}
+Sep 20 14:30:36.247 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.218.53}
+Sep 20 14:30:36.249 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.222.122}
+Sep 20 14:30:36.251 - 0m2s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x53e6d0
+Sep 20 14:30:36.251 - 0m2s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:36.254 - 0m2s DEBUG flashlight: flashlight.go:118 Starting client HTTP proxy
+Sep 20 14:30:36.254 - 0m2s DEBUG flashlight.client: client.go:92 About to listen
+Sep 20 14:30:36.254 - 0m2s DEBUG flashlight: flashlight.go:125 Started client HTTP proxy
+Sep 20 14:30:36.254 - 0m2s DEBUG flashlight.proxiedsites: proxiedsites.go:31 Configuring
+Sep 20 14:30:36.256 - 0m2s DEBUG flashlight: flashlight.go:110 Starting client SOCKS5 proxy
+Sep 20 14:30:36.257 - 0m2s DEBUG flashlight.client: client.go:146 About to start SOCKS5 client proxy at 127.0.0.1:8788
+Sep 20 14:30:36.257 - 0m2s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:36.257 - 0m2s DEBUG flashlight.logging: logging.go:177 Sending error logs to Loggly via proxy
+Sep 20 14:30:36.273 - 0m2s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:36.273 - 0m2s DEBUG flashlight.util: http.go:113 Using dual fronter
+Sep 20 14:30:36.273 - 0m2s DEBUG flashlight.util: http.go:167 Sending request via DDF
+Sep 20 14:30:36.274 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.239}
+Sep 20 14:30:36.274 - 0m2s DEBUG flashlight.util: http.go:178 Sending chained request
+Sep 20 14:30:36.279 - 0m2s DEBUG yamlconf: yamlconf.go:219 Polling for new config from yamlconf
+Sep 20 14:30:36.290 - 0m2s DEBUG flashlight.config: fetcher.go:57 Polling for config
+Sep 20 14:30:36.293 - 0m2s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x546db0
+Sep 20 14:30:36.293 - 0m2s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:36.293 - 0m2s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:36.294 - 0m2s DEBUG flashlight.util: http.go:113 Using dual fronter
+Sep 20 14:30:36.294 - 0m2s DEBUG flashlight.util: http.go:167 Sending request via DDF
+Sep 20 14:30:36.294 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.215.134}
+Sep 20 14:30:36.295 - 0m2s DEBUG flashlight.util: http.go:178 Sending chained request
+Sep 20 14:30:36.303 - 0m2s DEBUG proxiedsites: proxiedsites.go:135 Applied updated configuration
+Sep 20 14:30:36.303 - 0m2s DEBUG proxiedsites: proxiedsites.go:137 7298 additions, 0 deletions
+Sep 20 14:30:36.303 - 0m2s DEBUG flashlight.proxiedsites: proxiedsites.go:65 Updating detour with 7298 additions and 0 deletions
+Sep 20 14:30:36.358 - 0m2s DEBUG flashlight: pac.go:154 Setting lantern as system proxy
+Sep 20 14:30:36.358 - 0m2s DEBUG flashlight: pac.go:155 Serving PAC file at http://127.0.0.1:16823/proxy_on.pac
+Sep 20 14:30:36.359 - 0m2s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x546db0
+Sep 20 14:30:36.359 - 0m2s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:36.359 - 0m2s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:36.359 - 0m2s DEBUG flashlight.autoupdate: autoupdate.go:68 Software version: 2.2.5
+Sep 20 14:30:36.359 - 0m2s DEBUG autoupdate: autoupdate.go:59 Defaulted CheckInterval to 4h0m0s
+Sep 20 14:30:36.870 - 0m2s DEBUG flashlight.client: client.go:116 About to start HTTP client proxy at 127.0.0.1:8787
+Sep 20 14:30:36.907 - 0m2s DEBUG flashlight.client: handler.go:33 Reverse proxying GET http://config.getiantem.org/cloud.yaml.gz?e29246c7-c378-461e-9d0f-b375069bd4e0
+Sep 20 14:30:36.907 - 0m2s DEBUG balancer: balancer.go:89 Dialing tcp://config.getiantem.org:80 with (trusted) chained proxy at 104.236.117.243:36135 []
+Sep 20 14:30:37.012 - 0m2s DEBUG flashlight.client: handler.go:33 Reverse proxying GET http://geo.getiantem.org/lookup/
+Sep 20 14:30:37.012 - 0m2s DEBUG balancer: balancer.go:89 Dialing tcp://geo.getiantem.org:80 with (trusted) chained proxy at 139.59.245.88:59738 []
+Sep 20 14:30:37.046 - 0m2s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.215.134}
+Sep 20 14:30:37.105 - 0m2s DEBUG fronted: direct.go:184 Could not dial to 54.192.156.132, Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.queue-it.net, queue-it.net, not cloudfront.net
+Sep 20 14:30:37.105 - 0m2s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.queue-it.net, queue-it.net, not cloudfront.net'
+Sep 20 14:30:37.105 - 0m2s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.61}
+Sep 20 14:30:37.146 - 0m2s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.228}
+Sep 20 14:30:37.261 - 0m3s DEBUG balancer: balancer.go:89 Dialing connect://update.getlantern.org:443 with (trusted) chained proxy at 104.236.117.243:36135 []
+Sep 20 14:30:37.262 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.201.156}
+Sep 20 14:30:37.293 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.55}
+Sep 20 14:30:37.310 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.218.53}
+Sep 20 14:30:37.339 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.197.123}
+Sep 20 14:30:37.389 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.191}
+Sep 20 14:30:37.403 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.205.33}
+Sep 20 14:30:37.441 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.222.158}
+Sep 20 14:30:37.776 - 0m3s DEBUG balancer: balancer.go:95 Successfully dialed via (trusted) chained proxy at 104.236.117.243:36135 [] to tcp://config.getiantem.org:80 on pass 0
+Sep 20 14:30:37.872 - 0m3s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:37.872 - 0m3s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.176.17}
+Sep 20 14:30:37.972 - 0m3s DEBUG fronted: direct.go:192 Got successful connection to: &{custom-origin.cloudfront-test.net 54.182.199.134}
+Sep 20 14:30:38.022 - 0m3s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.022 - 0m3s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.205.79}
+Sep 20 14:30:38.241 - 0m4s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.72}
+Sep 20 14:30:38.252 - 0m4s DEBUG fronted: direct.go:184 Could not dial to 54.192.156.61, Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.synology.com, not cloudfront.net
+Sep 20 14:30:38.252 - 0m4s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.synology.com, not cloudfront.net'
+Sep 20 14:30:38.252 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.226.47}
+Sep 20 14:30:38.254 - 0m4s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.67}
+Sep 20 14:30:38.284 - 0m4s DEBUG balancer: balancer.go:95 Successfully dialed via (trusted) chained proxy at 139.59.245.88:59738 [] to tcp://geo.getiantem.org:80 on pass 0
+Sep 20 14:30:38.317 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.317 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:38.341 - 0m4s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.239}
+Sep 20 14:30:38.369 - 0m4s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.207.200}
+Sep 20 14:30:38.523 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.523 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.209.111}
+Sep 20 14:30:38.579 - 0m4s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.223.95}
+Sep 20 14:30:38.651 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.651 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.198.66}
+Sep 20 14:30:38.653 - 0m4s DEBUG flashlight.util: http.go:146 Got successful HTTP call!
+Sep 20 14:30:38.653 - 0m4s DEBUG flashlight.util: http.go:182 Switching to chained fronter for future requests since it succeeded
+Sep 20 14:30:38.653 - 0m4s DEBUG flashlight.util: http.go:209 Got good first response
+Sep 20 14:30:38.654 - 0m4s DEBUG flashlight.config: fetcher.go:140 Response headers: 
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cf-Ray: 2e55f9f220fb0ef1-EWR
+Content-Type: application/gzip
+Date: Tue, 20 Sep 2016 14:30:37 GMT
+Etag: 5e849723f2999b432b163c510143925341892fe4:8994b5306a73d5641bb30ca661bba506d7b20427
+Server: cloudflare-nginx
+Set-Cookie: __cfduid=d1768653bac2116e31c3c9ec730b1cd3f1474381837; expires=Wed, 20-Sep-17 14:30:37 GMT; path=/; domain=.getiantem.org; HttpOnly
+X-Lantern-Etag: 5e849723f2999b432b163c510143925341892fe4:8994b5306a73d5641bb30ca661bba506d7b20427
+
+
+Sep 20 14:30:38.809 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.809 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.186}
+Sep 20 14:30:38.813 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:38.813 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.197.25}
+Sep 20 14:30:38.814 - 0m4s DEBUG flashlight.util: http.go:146 Got successful HTTP call!
+Sep 20 14:30:38.814 - 0m4s DEBUG flashlight.util: http.go:182 Switching to chained fronter for future requests since it succeeded
+Sep 20 14:30:38.814 - 0m4s DEBUG flashlight.util: http.go:209 Got good first response
+Sep 20 14:30:38.815 - 0m4s DEBUG geolookup: geolookup.go:156 Successfully looked up IP '118.112.62.159' and country 'CN'
+Sep 20 14:30:38.815 - 0m4s DEBUG flashlight.geolookup: geolookup.go:98 IP is 118.112.62.159
+Sep 20 14:30:38.815 - 0m4s DEBUG flashlight.geolookup: geolookup.go:78 Got new geolocation info
+Sep 20 14:30:38.815 - 0m4s DEBUG flashlight.analytics: analytics.go:55 Starting analytics session with ip 118.112.62.159
+Sep 20 14:30:38.816 - 0m4s DEBUG flashlight.analytics: analytics.go:153 Full analytics request: POST /collect HTTP/1.1
+Host: ssl.google-analytics.com
+User-Agent: Go-http-client/1.1
+Content-Length: 178
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+aip=1&cd1=2.2.5&cd2=2.2.5-02d437ca0ab76b9bc391e2705a5b83b5402bf343bac3648689ad5a5d6865e53c&cid=6BEyn2dy&dp=localhost&sc=start&t=pageview&tid=UA-21815217-12&uip=118.112.62.159&v=1
+Sep 20 14:30:38.817 - 0m4s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x546db0
+Sep 20 14:30:38.817 - 0m4s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:38.817 - 0m4s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:39.026 - 0m4s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:39.026 - 0m4s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.254.67}
+Sep 20 14:30:39.234 - 0m5s DEBUG flashlight.config: fetcher.go:158 Fetched cloud config
+Sep 20 14:30:39.238 - 0m5s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:39.238 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.218.102}
+Sep 20 14:30:39.254 - 0m5s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:39.254 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.218.196}
+Sep 20 14:30:39.258 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.150.37}
+Sep 20 14:30:39.264 - 0m5s DEBUG chained: dialer.go:50 Sending CONNECT REQUEST
+Sep 20 14:30:39.309 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.226.47}
+Sep 20 14:30:39.356 - 0m5s DEBUG flashlight: settings.go:99 Sending Lantern settings to new client
+Sep 20 14:30:39.422 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.198.66}
+Sep 20 14:30:39.465 - 0m5s DEBUG fronted: direct.go:184 Could not dial to 54.230.254.67, Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.kppgame.com, kppgame.com, not cloudfront.net
+Sep 20 14:30:39.465 - 0m5s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.kppgame.com, kppgame.com, not cloudfront.net'
+Sep 20 14:30:39.465 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.216.184}
+Sep 20 14:30:39.561 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.209.111}
+Sep 20 14:30:39.577 - 0m5s DEBUG balancer: balancer.go:95 Successfully dialed via (trusted) chained proxy at 104.236.117.243:36135 [] to connect://update.getlantern.org:443 on pass 0
+Sep 20 14:30:39.578 - 0m5s DEBUG flashlight.client: handler.go:161 Responding OK to //update.getlantern.org:443
+Sep 20 14:30:39.578 - 0m5s DEBUG flashlight.client: handler.go:174 Responding 200 to //update.getlantern.org:443
+Sep 20 14:30:39.641 - 0m5s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:39.641 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:39.671 - 0m5s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:39.671 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.150.37}
+Sep 20 14:30:39.723 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.248}
+Sep 20 14:30:39.764 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.205.79}
+Sep 20 14:30:39.830 - 0m5s DEBUG flashlight.config: fetcher.go:76 Merging cloud configuration
+Sep 20 14:30:39.835 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.186}
+Sep 20 14:30:39.943 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.218.196}
+Sep 20 14:30:39.955 - 0m5s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.218.102}
+Sep 20 14:30:39.973 - 0m5s DEBUG flashlight.config: fetcher.go:81 Adding 1 chained servers
+Sep 20 14:30:39.973 - 0m5s DEBUG flashlight.config: fetcher.go:81 Got chained server: 45.76.110.104:50615
+Sep 20 14:30:40.057 - 0m5s DEBUG yamlconf: yamlconf_disk.go:86 Configuration changed programmatically, saving
+Sep 20 14:30:40.121 - 0m5s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.121 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.198.43}
+Sep 20 14:30:40.134 - 0m5s DEBUG flashlight: flashlight.go:96 Applying updated configuration
+Sep 20 14:30:40.135 - 0m5s DEBUG fronted: direct.go:40 Configuring fronted
+Sep 20 14:30:40.135 - 0m5s DEBUG fronted: direct.go:71 Loading candidates
+Sep 20 14:30:40.135 - 0m5s DEBUG fronted: direct.go:85 Vetting 20 initial candidates in parallel
+Sep 20 14:30:40.135 - 0m5s DEBUG flashlight.client: client.go:155 Configure() called
+Sep 20 14:30:40.135 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.43}
+Sep 20 14:30:40.135 - 0m5s DEBUG flashlight.client: client.go:167 Client configuration changed
+Sep 20 14:30:40.136 - 0m5s DEBUG flashlight.client: client.go:168 Requiring minimum QOS of 0
+Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.85}
+Sep 20 14:30:40.136 - 0m5s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x53e6d0
+Sep 20 14:30:40.136 - 0m5s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:40.136 - 0m5s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:40.136 - 0m5s DEBUG flashlight.logging: logging.go:177 Sending error logs to Loggly via proxy
+Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.36}
+Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.146}
+Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.186}
+Sep 20 14:30:40.135 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.159}
+Sep 20 14:30:40.136 - 0m5s Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.235}
+Sep 20 14:30:40.136 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.163}
+Sep 20 14:30:40.144 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.157}
+Sep 20 14:30:40.145 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.144}
+Sep 20 14:30:40.146 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.209}
+Sep 20 14:30:40.147 - 0m5s Sep 20 14:30:40.144 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.252}
+DEBUG flashlight.client: client.go:170 Proxy all traffic or not: false
+Sep 20 14:30:40.144 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.185}
+DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.42}
+Sep 20 14:30:40.149 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.135}
+Sep 20 14:30:40.149 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.185}
+Sep 20 14:30:40.152 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.108}
+Sep 20 14:30:40.152 - 0m5s DEBUG flashlight.client: balancer.go:34 Adding 1 chained servers
+Sep 20 14:30:40.152 - 0m5s Sep 20 14:30:40.152 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.195}
+Sep 20 14:30:40.153 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.206}
+Sep 20 14:30:40.153 - 0m5s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.175}
+DEBUG flashlight.client: chained.go:55 Using pluggable transport obfs4 for server at 45.76.110.104:50615
+Sep 20 14:30:40.157 - 0m5s DEBUG flashlight.client: balancer.go:38 Adding chained server: 45.76.110.104:50615
+Sep 20 14:30:40.158 - 0m5s DEBUG flashlight.proxiedsites: proxiedsites.go:31 Configuring
+Sep 20 14:30:40.159 - 0m5s DEBUG flashlight.client: balancer.go:60 Closed old balancer
+Sep 20 14:30:40.189 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.216.184}
+Sep 20 14:30:40.200 - 0m6s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.200 - 0m6s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.220.203}
+Sep 20 14:30:40.207 - 0m6s DEBUG proxiedsites: proxiedsites.go:135 Applied updated configuration
+Sep 20 14:30:40.207 - 0m6s DEBUG proxiedsites: proxiedsites.go:137 2 additions, 0 deletions
+Sep 20 14:30:40.207 - 0m6s DEBUG flashlight.proxiedsites: proxiedsites.go:65 Updating detour with 2 additions and 0 deletions
+Sep 20 14:30:40.207 - 0m6s DEBUG flashlight: flashlight.go:101 Applied updated configuration
+Sep 20 14:30:40.207 - 0m6s DEBUG flashlight.util: http.go:279 Creating new HTTPClient with proxyAddrFN: 0x546db0
+Sep 20 14:30:40.207 - 0m6s DEBUG flashlight.util: http.go:294 Waiting for proxy server to come online
+Sep 20 14:30:40.207 - 0m6s DEBUG flashlight.util: http.go:303 Connected to proxy
+Sep 20 14:30:40.271 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:40.290 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.150.37}
+Sep 20 14:30:40.522 - 0m6s DEBUG autoupdate: autoupdate.go:97 No update available
+Sep 20 14:30:40.549 - 0m6s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.549 - 0m6s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.23}
+Sep 20 14:30:40.583 - 0m6s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.584 - 0m6s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.233}
+Sep 20 14:30:40.623 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.195}
+Sep 20 14:30:40.714 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.144}
+Sep 20 14:30:40.743 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.209}
+Sep 20 14:30:40.743 - 0m6s DEBUG fronted: direct.go:192 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.743 - 0m6s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.39}
+Sep 20 14:30:40.775 - 0m6s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:40.775 - 0m6s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.8}
+Sep 20 14:30:40.905 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.198.43}
+Sep 20 14:30:41.088 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.36}
+Sep 20 14:30:41.116 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.42}
+Sep 20 14:30:41.131 - 0m6s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.195}
+Sep 20 14:30:41.131 - 0m6s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:41.131 - 0m6s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:41.138 - 0m6s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.135}
+Sep 20 14:30:41.200 - 0m7s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.144}
+Sep 20 14:30:41.201 - 0m7s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:41.201 - 0m7s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:41.205 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:41.205 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.104}
+Sep 20 14:30:41.220 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:41.220 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.166}
+Sep 20 14:30:41.242 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:41.242 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.86}
+Sep 20 14:30:41.245 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.157}
+Sep 20 14:30:41.270 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.159}
+Sep 20 14:30:41.320 - 0m7s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.209}
+Sep 20 14:30:41.320 - 0m7s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:41.320 - 0m7s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:41.640 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:41.640 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.205.153}
+Sep 20 14:30:41.709 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.39}
+Sep 20 14:30:41.757 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.175}
+Sep 20 14:30:41.764 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.206}
+Sep 20 14:30:41.783 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.235}
+Sep 20 14:30:41.818 - 0m7s DEBUG detour: detour.go:140 Dial initially to ssl.google-analytics.com:443 failed, try detour: dial tcp 216.58.221.136:443: i/o timeout
+Sep 20 14:30:41.818 - 0m7s DEBUG balancer: balancer.go:89 Dialing connect://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.76.110.104:50615 [obfs4]
+Sep 20 14:30:41.895 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.222.122}
+Sep 20 14:30:41.921 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.163}
+Sep 20 14:30:41.940 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.166}
+Sep 20 14:30:41.966 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.192.53}
+Sep 20 14:30:42.012 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.85}
+Sep 20 14:30:42.018 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.019 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.221.188}
+Sep 20 14:30:42.023 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.023 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.170}
+Sep 20 14:30:42.030 - 0m7s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:42.030 - 0m7s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:42.030 - 0m7s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:42.059 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.185}
+Sep 20 14:30:42.079 - 0m7s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.079 - 0m7s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.104}
+Sep 20 14:30:42.082 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.220.203}
+Sep 20 14:30:42.093 - 0m7s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.185}
+Sep 20 14:30:42.185 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:42.268 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.25}
+Sep 20 14:30:42.286 - 0m8s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.157}
+Sep 20 14:30:42.286 - 0m8s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:42.286 - 0m8s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:42.492 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.108}
+Sep 20 14:30:42.680 - 0m8s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.680 - 0m8s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:42.729 - 0m8s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.729 - 0m8s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.5}
+Sep 20 14:30:42.742 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.205.153}
+Sep 20 14:30:42.808 - 0m8s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.808 - 0m8s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.97}
+Sep 20 14:30:42.980 - 0m8s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:42.980 - 0m8s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.207.43}
+Sep 20 14:30:43.045 - 0m8s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.045 - 0m8s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.15}
+Sep 20 14:30:43.051 - 0m8s DEBUG detour: detour.go:140 Dial initially to www.google-analytics.com:443 failed, try detour: dial tcp 216.58.197.110:443: i/o timeout
+Sep 20 14:30:43.051 - 0m8s DEBUG balancer: balancer.go:89 Dialing connect://www.google-analytics.com:443 with (trusted) chained proxy at 45.76.110.104:50615 [obfs4]
+Sep 20 14:30:43.057 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.104}
+Sep 20 14:30:43.111 - 0m8s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.221.188}
+Sep 20 14:30:43.206 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.252}
+Sep 20 14:30:43.213 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.202.86}
+Sep 20 14:30:43.218 - 0m9s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.185}
+Sep 20 14:30:43.218 - 0m9s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:43.218 - 0m9s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:43.291 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.146}
+Sep 20 14:30:43.333 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:43.586 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.104}
+Sep 20 14:30:43.678 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.678 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.216.96}
+Sep 20 14:30:43.726 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.726 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.96}
+Sep 20 14:30:43.833 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.833 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.78}
+Sep 20 14:30:43.854 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.854 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.207.229}
+Sep 20 14:30:43.866 - 0m9s DEBUG chained: dialer.go:50 Sending CONNECT REQUEST
+Sep 20 14:30:43.893 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:43.893 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.234}
+Sep 20 14:30:43.977 - 0m9s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.8}
+Sep 20 14:30:44.006 - 0m9s DEBUG balancer: balancer.go:95 Successfully dialed via (trusted) chained proxy at 45.76.110.104:50615 [obfs4] to connect://www.google-analytics.com:443 on pass 0
+Sep 20 14:30:44.006 - 0m9s DEBUG flashlight.client: handler.go:161 Responding OK to //www.google-analytics.com:443
+Sep 20 14:30:44.006 - 0m9s DEBUG flashlight.client: handler.go:174 Responding 200 to //www.google-analytics.com:443
+Sep 20 14:30:44.162 - 0m9s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.162 - 0m9s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.221.227}
+Sep 20 14:30:44.315 - 0m10s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.252}
+Sep 20 14:30:44.315 - 0m10s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:44.315 - 0m10s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:44.329 - 0m10s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.108}
+Sep 20 14:30:44.330 - 0m10s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:44.330 - 0m10s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:44.343 - 0m10s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.343 - 0m10s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.216.37}
+Sep 20 14:30:44.369 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.97}
+Sep 20 14:30:44.384 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.216.96}
+Sep 20 14:30:44.395 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.233}
+Sep 20 14:30:44.658 - 0m10s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.658 - 0m10s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.196.105}
+Sep 20 14:30:44.678 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.197.25}
+Sep 20 14:30:44.678 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.170}
+Sep 20 14:30:44.775 - 0m10s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.775 - 0m10s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.201}
+Sep 20 14:30:44.831 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.207.43}
+Sep 20 14:30:44.975 - 0m10s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.975 - 0m10s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.218}
+Sep 20 14:30:44.978 - 0m10s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:44.978 - 0m10s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.243}
+Sep 20 14:30:45.048 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.216.37}
+Sep 20 14:30:45.128 - 0m10s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.15}
+Sep 20 14:30:45.192 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.192 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.119}
+Sep 20 14:30:45.277 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.277 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.209}
+Sep 20 14:30:45.310 - 0m11s DEBUG flashlight.client: handler.go:161 Responding OK to //stats.g.doubleclick.net:443
+Sep 20 14:30:45.310 - 0m11s DEBUG flashlight.client: handler.go:174 Responding 200 to //stats.g.doubleclick.net:443
+Sep 20 14:30:45.311 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.312 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.205.22}
+Sep 20 14:30:45.330 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.234}
+Sep 20 14:30:45.343 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.96}
+Sep 20 14:30:45.480 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.480 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.199}
+Sep 20 14:30:45.504 - 0m11s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.159}
+Sep 20 14:30:45.504 - 0m11s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:45.505 - 0m11s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:45.506 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.507 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.196.197}
+Sep 20 14:30:45.527 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.186}
+Sep 20 14:30:45.637 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.637 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.232}
+Sep 20 14:30:45.687 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.201}
+Sep 20 14:30:45.734 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:45.734 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.223.116}
+Sep 20 14:30:45.750 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.202.5}
+Sep 20 14:30:45.914 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.218}
+Sep 20 14:30:45.925 - 0m11s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.207.229}
+Sep 20 14:30:46.063 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.063 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.16}
+Sep 20 14:30:46.072 - 0m11s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:46.072 - 0m11s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:46.072 - 0m11s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:46.088 - 0m11s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.088 - 0m11s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.127}
+Sep 20 14:30:46.188 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.209}
+Sep 20 14:30:46.250 - 0m12s DEBUG fronted: direct.go:184 Could not dial to 54.230.212.177, Unable to dial masquerade cloudfront.net: dial tcp 54.230.212.177:443: i/o timeout
+Sep 20 14:30:46.250 - 0m12s DEBUG fronted: direct.go:188 Unexpected error dialing, keeping masquerade: Unable to dial masquerade cloudfront.net: dial tcp 54.230.212.177:443: i/o timeout
+Sep 20 14:30:46.250 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.194.18}
+Sep 20 14:30:46.272 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.78}
+Sep 20 14:30:46.339 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.232}
+Sep 20 14:30:46.404 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.196.105}
+Sep 20 14:30:46.435 - 0m12s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.170}
+Sep 20 14:30:46.435 - 0m12s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:46.435 - 0m12s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:46.473 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.473 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.199.40}
+Sep 20 14:30:46.489 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.127}
+Sep 20 14:30:46.520 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.196.197}
+Sep 20 14:30:46.554 - 0m12s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.96}
+Sep 20 14:30:46.554 - 0m12s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:46.554 - 0m12s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:46.594 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.594 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.114}
+Sep 20 14:30:46.610 - 0m12s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.186}
+Sep 20 14:30:46.610 - 0m12s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:46.610 - 0m12s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:46.625 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.625 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.205.220}
+Sep 20 14:30:46.657 - 0m12s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.243}
+Sep 20 14:30:46.805 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.805 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.237}
+Sep 20 14:30:46.905 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.905 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.13}
+Sep 20 14:30:46.951 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:46.951 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:47.124 - 0m12s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:47.124 - 0m12s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.96}
+Sep 20 14:30:47.359 - 0m13s DEBUG fronted: direct.go:184 Could not dial to 54.192.156.199, Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.volantio.com, volantio.com, not cloudfront.net
+Sep 20 14:30:47.359 - 0m13s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.volantio.com, volantio.com, not cloudfront.net'
+Sep 20 14:30:47.359 - 0m13s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.220.228}
+Sep 20 14:30:47.537 - 0m13s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.114}
+Sep 20 14:30:47.546 - 0m13s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:47.546 - 0m13s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.221.169}
+Sep 20 14:30:47.664 - 0m13s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.13}
+Sep 20 14:30:47.710 - 0m13s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.16}
+Sep 20 14:30:47.853 - 0m13s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.131.237}
+Sep 20 14:30:47.871 - 0m13s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.221.227}
+Sep 20 14:30:47.872 - 0m13s DEBUG fronted: direct.go:184 Could not dial to 54.182.176.17, Unable to dial masquerade cloudfront.net: dial tcp 54.182.176.17:443: i/o timeout
+Sep 20 14:30:47.872 - 0m13s DEBUG fronted: direct.go:188 Unexpected error dialing, keeping masquerade: Unable to dial masquerade cloudfront.net: dial tcp 54.182.176.17:443: i/o timeout
+Sep 20 14:30:47.872 - 0m13s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.208}
+Sep 20 14:30:47.875 - 0m13s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:47.875 - 0m13s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.116}
+Sep 20 14:30:48.191 - 0m14s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:48.191 - 0m14s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.221}
+Sep 20 14:30:48.191 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.116}
+Sep 20 14:30:48.222 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.96}
+Sep 20 14:30:48.222 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.199.40}
+Sep 20 14:30:48.591 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.220.228}
+Sep 20 14:30:48.622 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.221.169}
+Sep 20 14:30:48.638 - 0m14s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.194.18}
+Sep 20 14:30:48.691 - 0m14s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.13}
+Sep 20 14:30:48.691 - 0m14s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:48.691 - 0m14s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:48.777 - 0m14s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:48.777 - 0m14s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.100}
+Sep 20 14:30:48.894 - 0m14s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:48.894 - 0m14s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.211.9}
+Sep 20 14:30:49.025 - 0m14s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.025 - 0m14s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.215.143}
+Sep 20 14:30:49.278 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.278 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.221.226}
+Sep 20 14:30:49.310 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Head http://dlymairwlc89h.cloudfront.net/index.html: Unable to dial masquerade cloudfront.net: tlsdialer: DialWithDialer timed out
+Sep 20 14:30:49.310 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.209.195}
+Sep 20 14:30:49.439 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.439 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.201.220}
+Sep 20 14:30:49.530 - 0m15s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.43}
+Sep 20 14:30:49.543 - 0m15s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.192.233.116}
+Sep 20 14:30:49.543 - 0m15s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:49.543 - 0m15s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:49.619 - 0m15s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.221}
+Sep 20 14:30:49.710 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.710 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.175}
+Sep 20 14:30:49.726 - 0m15s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.100}
+Sep 20 14:30:49.741 - 0m15s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.215.143}
+Sep 20 14:30:49.794 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.794 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.167}
+Sep 20 14:30:49.794 - 0m15s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.208}
+Sep 20 14:30:49.826 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:49.826 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.52}
+Sep 20 14:30:50.026 - 0m15s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:50.026 - 0m15s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.222.211}
+Sep 20 14:30:50.126 - 0m15s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.16}
+Sep 20 14:30:50.126 - 0m15s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:50.126 - 0m15s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:50.280 - 0m16s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.78}
+Sep 20 14:30:50.280 - 0m16s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:50.280 - 0m16s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:50.327 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.209.195}
+Sep 20 14:30:50.458 - 0m16s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:50.458 - 0m16s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.150.15}
+Sep 20 14:30:50.559 - 0m16s DEBUG fronted: direct.go:184 Could not dial to 54.192.233.23, Unable to dial masquerade cloudfront.net: dial tcp 54.192.233.23:443: i/o timeout
+Sep 20 14:30:50.559 - 0m16s DEBUG fronted: direct.go:188 Unexpected error dialing, keeping masquerade: Unable to dial masquerade cloudfront.net: dial tcp 54.192.233.23:443: i/o timeout
+Sep 20 14:30:50.559 - 0m16s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.219.87}
+Sep 20 14:30:50.559 - 0m16s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:50.559 - 0m16s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.34}
+Sep 20 14:30:50.585 - 0m16s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:50.585 - 0m16s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.149.158}
+Sep 20 14:30:50.625 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.223.116}
+Sep 20 14:30:50.680 - 0m16s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:50.680 - 0m16s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.77}
+Sep 20 14:30:51.008 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.119}
+Sep 20 14:30:51.024 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.221.226}
+Sep 20 14:30:51.112 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.222.211}
+Sep 20 14:30:51.159 - 0m16s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.201.220}
+Sep 20 14:30:51.197 - 0m17s DEBUG fronted: direct.go:184 Could not dial to 54.230.149.158, Unable to dial masquerade cloudfront.net: remote error: handshake failure
+Sep 20 14:30:51.197 - 0m17s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: remote error: handshake failure'
+Sep 20 14:30:51.197 - 0m17s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.103}
+Sep 20 14:30:51.328 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.211.9}
+Sep 20 14:30:51.344 - 0m17s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:51.344 - 0m17s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.218.238}
+Sep 20 14:30:51.397 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.150.15}
+Sep 20 14:30:51.397 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.202.175}
+Sep 20 14:30:51.444 - 0m17s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.96}
+Sep 20 14:30:51.444 - 0m17s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:51.444 - 0m17s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:51.482 - 0m17s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:51.482 - 0m17s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.230}
+Sep 20 14:30:51.529 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.103}
+Sep 20 14:30:51.613 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.77}
+Sep 20 14:30:51.914 - 0m17s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.192.233.103}
+Sep 20 14:30:51.914 - 0m17s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:51.914 - 0m17s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:52.030 - 0m17s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:52.030 - 0m17s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.199.182}
+Sep 20 14:30:52.045 - 0m17s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:52.045 - 0m17s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.216.226}
+Sep 20 14:30:52.145 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.218.238}
+Sep 20 14:30:52.161 - 0m17s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.219.87}
+Sep 20 14:30:52.214 - 0m18s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.230}
+Sep 20 14:30:52.261 - 0m18s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:52.261 - 0m18s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.215.60}
+Sep 20 14:30:52.399 - 0m18s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:52.499 - 0m18s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.34}
+Sep 20 14:30:52.784 - 0m18s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.205.22}
+Sep 20 14:30:52.831 - 0m18s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.216.226}
+Sep 20 14:30:53.131 - 0m18s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.131 - 0m18s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.164.42}
+Sep 20 14:30:53.184 - 0m19s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.230.141.35}
+Sep 20 14:30:53.184 - 0m19s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:53.184 - 0m19s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:53.184 - 0m19s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.215.60}
+Sep 20 14:30:53.215 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.215 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.198.219}
+Sep 20 14:30:53.262 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.262 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.201.211}
+Sep 20 14:30:53.281 - 0m19s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.199.182}
+Sep 20 14:30:53.299 - 0m19s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.230.141.225}
+Sep 20 14:30:53.299 - 0m19s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:53.299 - 0m19s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:53.362 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.362 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.173}
+Sep 20 14:30:53.515 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.515 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.81}
+Sep 20 14:30:53.615 - 0m19s DEBUG flashlight.util: http.go:146 Got successful HTTP call!
+Sep 20 14:30:53.615 - 0m19s DEBUG flashlight.util: http.go:175 Fronted request succeeded
+Sep 20 14:30:53.615 - 0m19s DEBUG flashlight.util: http.go:215 Closing second response body
+Sep 20 14:30:53.662 - 0m19s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.230}
+Sep 20 14:30:53.662 - 0m19s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:53.662 - 0m19s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:53.700 - 0m19s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.167}
+Sep 20 14:30:53.781 - 0m19s DEBUG flashlight.util: http.go:146 Got successful HTTP call!
+Sep 20 14:30:53.781 - 0m19s DEBUG flashlight.util: http.go:175 Fronted request succeeded
+Sep 20 14:30:53.781 - 0m19s DEBUG flashlight.util: http.go:215 Closing second response body
+Sep 20 14:30:53.784 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.784 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.209.177}
+Sep 20 14:30:53.816 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.816 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.217.243}
+Sep 20 14:30:53.916 - 0m19s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.198.219}
+Sep 20 14:30:53.947 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:53.947 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.174.38}
+Sep 20 14:30:54.016 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:54.016 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.220.28}
+Sep 20 14:30:54.032 - 0m19s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:54.032 - 0m19s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.197.4}
+Sep 20 14:30:54.085 - 0m19s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.164.42}
+Sep 20 14:30:54.201 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.201.211}
+Sep 20 14:30:54.307 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.173}
+Sep 20 14:30:54.429 - 0m20s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:54.429 - 0m20s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.194.27}
+Sep 20 14:30:54.602 - 0m20s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:54.602 - 0m20s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.125}
+Sep 20 14:30:54.602 - 0m20s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:54.602 - 0m20s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.41}
+Sep 20 14:30:54.617 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.205.220}
+Sep 20 14:30:54.648 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.217.243}
+Sep 20 14:30:54.733 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.220.28}
+Sep 20 14:30:54.749 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.209.177}
+Sep 20 14:30:54.858 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.52}
+Sep 20 14:30:54.987 - 0m20s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.41}
+Sep 20 14:30:55.034 - 0m20s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.034 - 0m20s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.196.96}
+Sep 20 14:30:55.065 - 0m20s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.065 - 0m20s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.216.34}
+Sep 20 14:30:55.219 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.219 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.193.235}
+Sep 20 14:30:55.403 - 0m21s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.192.233.41}
+Sep 20 14:30:55.403 - 0m21s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:55.403 - 0m21s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:55.435 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.435 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.149.39}
+Sep 20 14:30:55.635 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.81}
+Sep 20 14:30:55.666 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.125}
+Sep 20 14:30:55.704 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.216.34}
+Sep 20 14:30:55.704 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.704 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.144.210}
+Sep 20 14:30:55.719 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.719 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.182.6}
+Sep 20 14:30:55.766 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.766 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.5}
+Sep 20 14:30:55.867 - 0m21s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:55.867 - 0m21s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.230}
+Sep 20 14:30:56.067 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.196.96}
+Sep 20 14:30:56.105 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.5}
+Sep 20 14:30:56.120 - 0m21s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.197.4}
+Sep 20 14:30:56.167 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:56.167 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.4.28}
+Sep 20 14:30:56.390 - 0m22s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.193.235}
+Sep 20 14:30:56.486 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:56.486 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.201.16}
+Sep 20 14:30:56.489 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Head http://dlymairwlc89h.cloudfront.net/index.html: Unable to dial masquerade cloudfront.net: dial tcp 54.192.233.127:443: i/o timeout
+Sep 20 14:30:56.489 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.245}
+Sep 20 14:30:56.552 - 0m22s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.182.6}
+Sep 20 14:30:56.590 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:56.590 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.129.199}
+Sep 20 14:30:56.690 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:56.690 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.149}
+Sep 20 14:30:56.837 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:56.837 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.156}
+Sep 20 14:30:56.856 - 0m22s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.230}
+Sep 20 14:30:56.938 - 0m22s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.4.28}
+Sep 20 14:30:56.991 - 0m22s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.192.233.5}
+Sep 20 14:30:56.991 - 0m22s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:56.991 - 0m22s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:57.090 - 0m22s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:57.090 - 0m22s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.148.12}
+Sep 20 14:30:57.207 - 0m23s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:57.207 - 0m23s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.63}
+Sep 20 14:30:57.286 - 0m23s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:57.286 - 0m23s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.222.128}
+Sep 20 14:30:57.408 - 0m23s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.202.245}
+Sep 20 14:30:57.555 - 0m23s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.129.199}
+Sep 20 14:30:57.640 - 0m23s DEBUG fronted: direct.go:184 Could not dial to 54.192.156.156, Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.myfitnesspal.com, myfitnesspal.com, not cloudfront.net
+Sep 20 14:30:57.640 - 0m23s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate is valid for *.myfitnesspal.com, myfitnesspal.com, not cloudfront.net'
+Sep 20 14:30:57.640 - 0m23s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.218.242}
+Sep 20 14:30:57.655 - 0m23s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.182.4.28}
+Sep 20 14:30:57.655 - 0m23s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:30:57.655 - 0m23s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:30:57.809 - 0m23s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:57.809 - 0m23s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.59}
+Sep 20 14:30:58.059 - 0m23s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.194.27}
+Sep 20 14:30:58.074 - 0m23s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.148.12}
+Sep 20 14:30:58.190 - 0m24s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.63}
+Sep 20 14:30:58.316 - 0m24s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:58.316 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.14}
+Sep 20 14:30:58.363 - 0m24s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.201.16}
+Sep 20 14:30:58.378 - 0m24s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.218.242}
+Sep 20 14:30:58.479 - 0m24s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:58.479 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 52.84.0.215}
+Sep 20 14:30:58.716 - 0m24s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:58.716 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.207.113}
+Sep 20 14:30:58.763 - 0m24s DEBUG fronted: direct.go:184 Could not dial to 54.230.149.39, Unable to dial masquerade cloudfront.net: remote error: handshake failure
+Sep 20 14:30:58.763 - 0m24s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: remote error: handshake failure'
+Sep 20 14:30:58.763 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.69}
+Sep 20 14:30:59.095 - 0m24s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:59.095 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.97}
+Sep 20 14:30:59.148 - 0m24s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:59.148 - 0m24s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.226}
+Sep 20 14:30:59.201 - 0m25s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:59.201 - 0m25s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.212.63}
+Sep 20 14:30:59.279 - 0m25s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:59.279 - 0m25s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.137}
+Sep 20 14:30:59.657 - 0m25s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.59}
+Sep 20 14:30:59.753 - 0m25s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:30:59.753 - 0m25s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.195.205}
+Sep 20 14:31:00.073 - 0m25s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.69}
+Sep 20 14:31:00.106 - 0m25s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:00.106 - 0m25s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.220.233}
+Sep 20 14:31:00.106 - 0m25s DEBUG fronted: direct.go:184 Could not dial to 54.192.156.137, Unable to dial masquerade cloudfront.net: x509: certificate has expired or is not yet valid
+Sep 20 14:31:00.106 - 0m25s DEBUG fronted: direct.go:162 Not re-adding candidate that failed on error 'Unable to dial masquerade cloudfront.net: x509: certificate has expired or is not yet valid'
+Sep 20 14:31:00.106 - 0m25s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.233.104}
+Sep 20 14:31:00.176 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.207.113}
+Sep 20 14:31:00.369 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.226}
+Sep 20 14:31:00.369 - 0m26s DEBUG flashlight.ui: ws.go:160 Error reading from UI: websocket: close 1005 (no status)
+Sep 20 14:31:00.492 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.192.233.104}
+Sep 20 14:31:00.511 - 0m26s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:00.511 - 0m26s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.209.121}
+Sep 20 14:31:00.568 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.14}
+Sep 20 14:31:00.625 - 0m26s DEBUG fronted: direct.go:162 Could not perform successful head request: Head http://dlymairwlc89h.cloudfront.net/index.html: Unable to dial masquerade cloudfront.net: tlsdialer: DialWithDialer timed out
+Sep 20 14:31:00.625 - 0m26s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.200.48}
+Sep 20 14:31:00.726 - 0m26s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:00.726 - 0m26s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.121}
+Sep 20 14:31:00.782 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 52.84.0.215}
+Sep 20 14:31:00.879 - 0m26s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.220.233}
+Sep 20 14:31:01.119 - 0m26s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 54.192.233.104}
+Sep 20 14:31:01.119 - 0m26s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:31:01.119 - 0m26s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:31:01.334 - 0m27s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:01.334 - 0m27s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.130.59}
+Sep 20 14:31:01.365 - 0m27s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.200.48}
+Sep 20 14:31:01.381 - 0m27s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:01.381 - 0m27s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.192.113}
+Sep 20 14:31:01.515 - 0m27s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.209.121}
+Sep 20 14:31:01.588 - 0m27s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:01.588 - 0m27s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.230.212.200}
+Sep 20 14:31:01.766 - 0m27s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:01.766 - 0m27s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.206.127}
+Sep 20 14:31:02.119 - 0m27s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:02.119 - 0m27s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.199.186}
+Sep 20 14:31:02.135 - 0m27s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.97}
+Sep 20 14:31:02.219 - 0m28s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.59}
+Sep 20 14:31:02.350 - 0m28s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.195.205}
+Sep 20 14:31:02.535 - 0m28s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.192.113}
+Sep 20 14:31:02.551 - 0m28s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:02.551 - 0m28s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.201.199}
+Sep 20 14:31:02.856 - 0m28s ERROR balancer: balancer.go:79 Unable to dial via (trusted) chained proxy at 45.76.110.104:50615 [obfs4] to connect://ssl.google-analytics.com:443: Unable to dial server (trusted) chained proxy at 45.76.110.104:50615 [obfs4]: dial tcp 45.76.110.104:50615: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. on pass 0...continuing
+Sep 20 14:31:02.856 - 0m28s DEBUG balancer: balancer.go:89 Dialing connect://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.76.110.104:50615 [obfs4]
+Sep 20 14:31:02.887 - 0m28s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.199.186}
+Sep 20 14:31:03.220 - 0m29s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:03.220 - 0m29s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.210.103}
+Sep 20 14:31:03.367 - 0m29s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:03.367 - 0m29s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.193.123}
+Sep 20 14:31:03.583 - 0m29s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:03.583 - 0m29s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.202.160}
+Sep 20 14:31:03.768 - 0m29s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.222.128}
+Sep 20 14:31:03.768 - 0m29s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.240.130.149}
+Sep 20 14:31:03.837 - 0m29s DEBUG fronted: direct.go:279 Successfully passed HEAD request through: &{cloudfront.net 52.84.0.215}
+Sep 20 14:31:03.837 - 0m29s DEBUG fronted: direct.go:200 Wrapping connecting in idletiming connection
+Sep 20 14:31:03.837 - 0m29s DEBUG fronted: direct.go:207 Returning connection
+Sep 20 14:31:03.952 - 0m29s DEBUG fronted: direct.go:184 Could not dial to 54.182.174.38, Unable to dial masquerade cloudfront.net: dial tcp 54.182.174.38:443: i/o timeout
+Sep 20 14:31:03.952 - 0m29s DEBUG fronted: direct.go:188 Unexpected error dialing, keeping masquerade: Unable to dial masquerade cloudfront.net: dial tcp 54.182.174.38:443: i/o timeout
+Sep 20 14:31:03.952 - 0m29s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.203.227}
+Sep 20 14:31:04.204 - 0m30s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.210.103}
+Sep 20 14:31:04.306 - 0m30s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:04.306 - 0m30s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.193.82}
+Sep 20 14:31:04.453 - 0m30s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.201.199}
+Sep 20 14:31:04.484 - 0m30s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.202.160}
+Sep 20 14:31:04.522 - 0m30s DEBUG chained: dialer.go:50 Sending CONNECT REQUEST
+Sep 20 14:31:04.537 - 0m30s DEBUG fronted: direct.go:192 Got successful connection to: &{cloudfront.net 54.182.206.127}
+Sep 20 14:31:04.622 - 0m30s DEBUG balancer: balancer.go:95 Successfully dialed via (trusted) chained proxy at 45.76.110.104:50615 [obfs4] to connect://ssl.google-analytics.com:443 on pass 1
+Sep 20 14:31:04.622 - 0m30s DEBUG flashlight.client: handler.go:161 Responding OK to //ssl.google-analytics.com:443
+Sep 20 14:31:04.622 - 0m30s DEBUG flashlight.client: handler.go:174 Responding 200 to //ssl.google-analytics.com:443
+Sep 20 14:31:04.706 - 0m30s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:04.706 - 0m30s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.240.131.47}
+Sep 20 14:31:04.753 - 0m30s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:04.753 - 0m30s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.192.156.113}
+Sep 20 14:31:04.822 - 0m30s DEBUG fronted: direct.go:162 Could not perform successful head request: Unexpected response status: 403, 403 Forbidden
+Sep 20 14:31:04.822 - 0m30s DEBUG fronted: direct.go:179 Dialing to &{cloudfront.net 54.182.221.46}
+Sep 20 14:31:04.894 - 0m30s DEBUG flashlight: main.go:330 Calling exit func

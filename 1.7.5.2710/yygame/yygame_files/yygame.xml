@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<urls>
+	<url name="gameHall" addr="http://sz.duowan.com/s/lobby/user3/lobby-v1.2.html" />
+	<url name="gameHall_1st" addr="http://sz.duowan.com/s/lobby/login/newuser-index-v1-2.html"/>
+	<url name="gameHall_new" addr="http://sz.duowan.com/s/lobby/user3/lobby-new-label.html" />
+	<url name="lobby" addr="http://sz.duowan.com/s/lobby/user3/lobby-v3.html"/>
+	<url name="gameHall_more" addr="http://sz.duowan.com/s/danta/moregame.html" />
+	<url name="textad" addr="http://sz.duowan.com/s/lobby/notice.xml"/>
+	<url name="imagead" addr=""/>
+	<url name="sizexml" addr="http://client.gamebox.duowan.com/web_game/config_xml.do"/>
+	<url name="help" addr="http://yaoguo.duowan.com/s/yygame/index.html" />
+	<url name="send2ybo" addr="http://t.duowan.com/webGameService/gamePostImageArticle.do" />
+	<url name="send2interactive" addr="http://t.duowan.com/webGameService/postGameFoucsImage.do" />
+	<url name="kf" addr="http://gm.duowan.com/user/dialog_4.htm" />
+	<url name="kf_center" addr="http://gm.duowan.com" />
+	<url name="bbs" addr="http://yaoguobbs.duowan.com/index.php" />
+	<url name="web" addr="http://web.duowan.com" />
+	<url name="stat_report" addr="http://stat.game.yy.com/data.do" />
+	<url name="update_version" addr="http://sz.duowan.com/yygame/update/1.4/yygame_files/version.xml" />	
+	<url name="update_filelist" addr="http://sz.duowan.com/yygame/update/1.4/filelist.xml" />	
+	<url name="smalltrust" addr="http://smalltrust.game.yy.com/user/" />		
+	<url name="ygaHttp_getBeSubAccountList" addr="listBig.do" />	
+	<url name="ygaHttp_delBeSubAccount" addr="deleteBig.do" />	
+	<url name="msgbar_show" addr="8000" />
+	<url name="msgbar_change" addr="5000" />
+	<url name="msgbar_capacity" addr="255" />
+	<url name="msgbar_imgurl" addr="http://message.game.yy.com/img/icon/%s.png" />
+	<url name="gamemsg_show" addr="20000" />
+	<url name="gamebox_deadline" addr="2012-1-31"/>
+	<url name="gamemsg_format" addr="%s【%s &lt;tag text='点击查看' action='openMsg' param='%d' /&gt;】" />
+	<url name="report_msgcount" addr="{event_category:'lobby_notice',event_action:'show',quantity:'%d'}" />
+	<url name="realname_tip" addr="http://fcm.duowan.com/user/lobby/popup.do" />
+	<url name="realname_get" addr="http://fcm.duowan.com/user/lobby/checkFcm.do" />
+	<url name="main_domain" addr="http://duowan.com;http://yy.com" />
+	
+	<url name="recruit" addr="http://sz.duowan.com/s/recruit/index.html" />	
+	<url name="feedback" addr="http://feedback.game.yy.com/feedback/List.do?cid=" />
+	<url name="gametoolFeedback" addr="http://feedback.game.yy.com/tool.do" />	
+	<url name="ddzadv" addr="http://sz.duowan.com/s/implantad/index.html" />
+	<url name="notify_show" addr="http://message.game.yy.com/news/message.do" />
+	<url name="notify_time" addr="http://data.message.game.yy.com/$(yyid).htm" />
+	<url name="notify_list" addr="http://message.game.yy.com/lastNews.do" />	
+	
+	<url name="udb_login" addr="http://udb.duowan.com/authentication.do" />
+	<url name="udb_logout" addr="http://labour.lobby.duowan.com/interface/cancellation/cancel.do" />
+	<url name="udb_time" addr="http://udb.duowan.com/time.do" />
+	<url name="pay_login" addr="https://pay.duowan.com/client/pay_login.jsp" />
+	<url name="udb_jump" addr="http://udb.duowan.com/login2.do" />
+	<url name="http_fail" addr="http://labour.lobby.duowan.com/errorRecord/add.do" />
+	
+	<url name="yggHttp_root" addr="http://labour.lobby.duowan.com/client" />	
+	
+	<url name="yggHttp_createGroup" addr="/group/createGroup.do" />
+	<url name="yggHttp_setGroupDetail" addr="/group/setGroupDetail.do" />
+	<url name="yggHttp_searchGroup" addr="/group/searchGroup.do" />	
+	<url name="yggHttp_dismissGroup" addr="/group/dismissGroup.do" />
+	<url name="yggHttp_setGroupPoint" addr="/group/setGroupPoint.do" />	
+	<url name="yggHttp_joinGroup" addr="/member/joinGroup.do" />	
+	<url name="yggHttp_quitGroup" addr="/member/quitGroup.do" />	
+	<url name="yggHttp_setUserRole" addr="/member/setUserRole.do" />	
+	<url name="yggHttp_getActiveGroup" addr="/member/getActiveGroup.do" />	
+	<url name="yggHttp_createActive" addr="/activity/createActive.do" />	
+	<url name="yggHttp_createCall" addr="/call/createCall.do" />	
+	<url name="yggHttp_joinCall" addr="/call/joinCall.do" />		
+	<url name="yggHttp_getRecruitValid" addr="/recruit/getRecruitValid.do" />	
+	<url name="yggHttp_deleteGuildRecruit" addr="/recruit/deleteGuildRecruit.do" />	
+	
+	<url name="yggHttp_appendGroupPoint" addr="/member/appendGroupPoint.do" />			
+	<url name="yggHttp_getPointHistory" addr="/member/getPointHistory.do" />	
+	<url name="yggHttp_getGroupList" addr="/member/getGroupList.do" />		
+	<url name="yggHttp_getRecommendGroup" addr="/group/getRecommendGroup.do" />		
+	<url name="yggHttp_getGroupMemberDetail" addr="/member/getGroupMemberDetail.do" />							
+	<url name="yggHttp_applyJoinGroup" addr="/member/applyJoinGroup.do" />			
+	<url name="yggHttp_canJoinGroup" addr="/member/canJoinGroup.do" />	
+	<url name="yggHttp_getReceptionistList" addr="/member/getReceptionistList.do" />
+	
+	<url name="yggHttp_regUserInfo" addr="/user/registerUserInfo.do" />	
+	<url name="yggHttp_getUserGoldList" addr="/user/getUserGoldList.do" />	
+	<url name="yggHttp_setUserInfo" addr="/user/setUserInfo.do" />			
+	<url name="yggHttp_getUserDetail" addr="/user/getUserDetail.do" />
+	<url name="yggHttp_canCreateGroup" addr="/group/canCreateGroup.do" />	
+	
+	<url name="yggHttp_notifyGroupOperation" addr="/group/notifyGroupOperation.do" />			
+	<url name="yggHttp_getGroupMemberList" addr="/member/getGroupMemberList.do" />		
+	<url name="yggHttp_getGameList" addr="/game/getGameList.do" />		
+	<url name="yggHttp_setUserGameNick" addr="/game/setUserGameNick.do" />		
+	<url name="yggHttp_getUserGameNick" addr="/game/getUserGameNick.do" />		
+	<url name="yggHttp_createAnnouncement" addr="/notice/createAnnouncement.do" />		
+	<url name="yggHttp_getAnnouncement" addr="/notice/getAnnouncement.do" />	
+	<url name="yggHttp_bindChannelToGroup" addr="/group/bindChannelToGroup.do" />	
+	<url name="yggHttp_getGroupDetail" addr="/group/getGroupDetail.do" />		
+	<url name="yggHttp_getGroupGoldList" addr="/group/getGroupGoldList.do" />		
+	<url name="yggHttp_receiveGold" addr="/group/receiveGold.do" />		
+	<url name="yggHttp_setGroupPoint" addr="/group/setGroupPoint.do" />	
+	<url name="yggHttp_getUserGoldList" addr="/user/getUserGoldList.do" />		
+	<url name="yggHttp_getMergedGroupList" addr="/member/getMergedGroupList.do" />	
+	<url name="yggHttp_bindGroup" addr="/group/bindGroup.do" />		
+	<url name="yggHttp_getExchangeGameList" addr="/game/getExchangeGameList.do" />	
+	<url name="yggHttp_exchangeGameGold" addr="/game/exchangeGameGold.do" />	
+	<url name="yggHttp_getYyuid" addr="/user/getYyuid.do" />	
+	
+	<url name="yggHttp_addSubscribe" addr="http://subscribe.duowan.com/user/lobbyAddSubscribe.do" />			
+	<url name="yggHttp_cancelSubscribe" addr="http://subscribe.duowan.com/user/lobbyCancelSubscribe.do" />			
+	<url name="yggHttp_getSubscribeList" addr="http://subscribe.duowan.com/user/lobbySubscribeList.do" />	
+	
+	<url name="yggHttp_getRecentGames" addr="http://lobby.duowan.com/lock/recent.do" />
+	<url name="yggHttp_getGameListWithMergeServer" addr="/game/getGameListWithMergeServer.do" />	
+	<url name="yggHttp_getSubChannelList" addr="/group/getSubChannelList.do" />				
+	<url name="yggHttp_getSMSNotifyInfo" addr="/sms/getSMSNotifyInfo.do" />	
+	<url name="yggHttp_getGameNotifyCount" addr="http://notice.lobby.duowan.com/all/notice/getUserNotice.do" />
+	<url name="yggHttp_getGameNotifyList" addr="http://notice.lobby.duowan.com/all/%s/%s.xml" />
+	<url name="yggHttp_showGameNotifyList" addr="http://notice.lobby.duowan.com/notice/list.do?gameId=%s&serverId=%s" />
+	<url name="yggHttp_setGroupMgrInfo" addr="/group/setGroupMgrInfo.do" />
+	<url name="yggHttp_createBookmark" addr="/knowledge/createBookmark.do" />
+	<url name="yggHttp_getBookmark" addr="/knowledge/getBookmark.do" />
+	<url name="yggHttp_notifyGroupError" addr="/group/notifyGroupError.do" />
+
+	<url name="yggHttp_getGameToolList" addr="http://notice.lobby.duowan.com/menu/"/>
+	<url name="yggHttp_openWenWen" addr="http://ask.lobby.duowan.com/ask/index.do"/>
+	<url name="yggHttp_openWenWenGroup" addr="http://ask.lobby.duowan.com/reply/getAsk.do"/>
+	<url name="yggHttp_getGuildMemberBriefInfoList" addr="/member/getGuildMemberBriefInfoList.do" />
+	<url name="yggHttp_queryGuildName" addr="/group/queryGuildName.do" />
+	<url name="yggHttp_postInviteList" addr="/recruit/postInviteList.do" />
+	<url name="yggHttp_postRecruitResult" addr="/recruit/postRecruitResult.do" />
+	<url name="yggHttp_subAccount_Guide" addr="http://sz.duowan.com/s/lobby/gamemanaged/small.html" />
+	<url name="yggHttp_TrustSubAccount_Guide" addr="http://sz.duowan.com/s/lobby/gamemanaged/managed.html" />
+	<url name="yggHttp_MicroClient_Config" addr="http://weiduan.game.yy.com/weiduan/clientInfo.do"/>
+	<url name="yggHttp_MicroClient_DowlandQuery" addr="http://weiduan.game.yy.com/weiduan/getInfo.do"/>
+	<url name="yggHttp_getNotifyInfomation" addr="" />
+	<url name="yggHttp_getGameRaidersCount" addr="http://help.game.yy.com/client/raider/getRaidersCount.do" />
+	<url name="getGameRaidersList" addr="http://help.game.yy.com/article/index.do?gameId=%s&serverId=%s&gameScene=%s&userLevel=%s" />
+	<url name="yggHttp_getGamesList" addr="http://udblogin.duowan.com/ext/gslist.do" />
+	<url name="ytalk" addr="http://youliao.game.yy.com/article/home.do?pageId=1" />
+	<url name="ytalk_postimg" addr="http://youliao.game.yy.com/resource/upload.do" />
+	<url name="ytalk_postimgemote" addr="http://youliao.game.yy.com/resource/uploadEmote.do" />
+	<url name="yggHttp_getYTalkGray" addr="http://youliao.game.yy.com/client/user/isRegistered.do" />
+	<url name="yggHttp_Select_Server" addr="http://sz.duowan.com/s/danta/server.html" />
+	<url name="yggHttp_Steward_Test" addr="http://sz.duowan.com/do_not_delete/10k.txt"/>
+	<url name="yggHttp_Steward_Cfg" addr="http://xml.game.yy.com/yygame/ygsteardcfg.xml"/>
+	<url name="ygscene_scripts_update" addr="http://youliao.game.yy.com/res_img/scene_script/"/>
+	<url name="yyaccount_reg" addr="http://udb.duowan.com/register.do"/>
+	<url name="yggHttp_guildExist" addr="/group/guildExist.do" />	
+	<url name="yggHttp_Shortcut_url" addr="http://img.dwstatic.com/sz/yygameimg/ico/48/%s_48.ico" />
+	<url name="yggRemindWeb_url" addr="http://client.gamebox.duowan.com/z/webGame_exit_page/index.html?gameId=%s&serverId=%s&a=%s" />
+</urls>
+<config>
+	<pageGame>
+		<game code="TC" name="天策" />
+		<game code="YX" name="武林英雄" />
+		<game code="BTO" name="商业大亨" />
+		<game code="XYJ" name="逍遥剑" />
+	</pageGame>
+	<returnGame>
+		<game code="TC" name="天策" />
+		<game code="YX" name="武林英雄" />
+		<game code="XYJ" name="逍遥剑" />
+	</returnGame>
+	<advList>
+	</advList>
+	<report>
+		<field key="host" value="http://stat.game.yy.com/data.do"/>
+		<field key="info" value="act=%s&dur=%d&ati=%I64d&fla=%s&mid=%s&pro=%s&pas=%s&gam=%s&gse=%s&rso=%s&ive=%s&uve=%s&cha=%s&ref=%s&pid=%s&os=%s&bve=%s&sre=%s&sco=%s&lla=%s&jav=%s&coo=%s&nve=%s"/>
+		<field key="login" value="mpassport=%s&logintype=%d"/>
+		<field key="logout" value="livetime=%d"/>
+		<field key="breath" value="heartbeat_list=pageid:%s|referrer:%s|live_time:%d|hb_type:%s"/>
+		<field key="click" value=""/>
+		<field key="error" value="sub_error_code=%d&error_code=%d&content=%s"/>
+		<field key="key_replace" value="action=act&duration=dur&atime=ati&flag=fla&product=pro&proxy_ip=pip&stime=sti&passport=pas&game=gam&game_server=gse&run_source=rso&iver=ive&uver=uve&channel=cha&referrer=ref&brower_version=bve&screen_resolution=sre&screen_color=sco&local_language=lla&java=jav&cookies=coo&net_version=nve" />
+	</report>
+	<uistyle>
+		<field key="ShowDetailVersion" value="1" />
+	</uistyle>
+	<guildcontrol>
+		<field key="enable" value="1" />
+	</guildcontrol>
+</config>

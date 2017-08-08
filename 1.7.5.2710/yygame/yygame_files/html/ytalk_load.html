@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<style type="text/css">
+	body{color:#333;background:#fff;font-size:12px;line-height:1.666em;}
+	.loading{background:url(images/ytalk_load.gif) no-repeat left 70%;color:#999;width:70px;margin:0 auto;padding-left:18px}
+</style>
+
+ <body>
+	
+<!-- 页面加载提示 -->
+	<div id="loading" style="display:none;auto 0 auto;text-align:center;">
+		<p class="loading">正在加载...</p>
+	</div>
+	<script type="text/javascript">
+		function change(){
+			var winH = 0			
+			
+			winH = document.documentElement.clientHeight;
+
+			var divH=document.getElementById("loading").offsetHeight;
+			
+			
+			var FH=(winH-divH)/2 - 40;	
+			document.getElementById("loading").style.marginTop=FH+'px';
+			document.getElementById("loading").style.display="block";
+		}
+		change();
+		window.onresize=change;
+	</script>
+
+
+	<script type="text/javascript" src="http://youliao.game.yy.com/js/load.js"></script>
+	
+
+	
+	<script type="text/javascript">
+		var url =window.location.href;  
+		
+		//url = (decodeURIComponent(url));
+		var url_ = url.toUpperCase();
+		var  start = url_.indexOf("?URL=");
+		if (start != -1){
+			url = url.substring(start+5);
+			location.href = url;
+		}
+
+	</script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+	<oemList launchCode="yygame_oem_lol" >
+		<!-- OEM版本嵌在产品版本第三节中，以整百表示，个位和十位为原来的产品版本值 -->
+		<product name="lol定制版" code="yygame_oem_lol" oemVersion="300">
+			<yygame>
+				<!-- 是否启用升级模块 -->
+				<cfg id="update" value="0" />
+				<!-- 是否连接开放平台 -->
+				<cfg id="connectOp" value="0" />
+				<!-- 登录时是否注册用户信息 -->
+				<cfg id="regUserInfo" value="0" />
+				<!-- 是否显示用户头像 -->
+				<cfg id="showUserIcon" value="0" />
+				<!-- 是否显示标题栏图标 -->
+				<cfg id="showTitleIcon" value="1" />
+				<!-- 打开游戏时的默认标签位置 -->
+				<cfg id="gameTabPos" value="0" />		
+				<!-- 是否显示大厅首页 -->
+				<cfg id="showHome" value="0" />
+				<!-- 是否显示更多游戏页面 -->
+				<cfg id="showMoreGame" value="0" />			
+				<!-- 是否启用悠聊模块 -->
+				<cfg id="ytalk" value="0" />
+				
+				<!-- 位置相关，正数表示从左上开始计算，负数表示从右下计算，-->
+				<cfg id="tbPassportLeft" value="-176" />
+				<cfg id="tbPassportTop" value="0" />
+				<cfg id="webLeft" value="1" />
+				<cfg id="webTop" value="52" />
+								
+				<!-- 显示显示标题栏任务按钮 -->
+				<cfg id="btnTask" value="0" />
+				<!-- 是否显示标题栏信息按钮 -->
+				<cfg id="btnInfo" value="0" />
+				<!-- 是否显示标题栏快快游戏按钮 -->
+				<cfg id="btnKKGame" value="0" />
+				<!-- 是否显示标题栏充值按钮 -->
+				<cfg id="btnPay" value="1" />
+				<!-- 是否显示标题栏VIP公会按钮 -->
+				<cfg id="btnVipGuild" value="0" />
+
+				<!-- 是否显示系统栏反馈按钮 -->
+				<cfg id="btnFeedback" value="0" />
+				<!-- 是否显示系统栏退出游戏大厅按钮 -->
+				<cfg id="btnExitGamehall" value="0" />
+				<!-- 是否显示系统栏帮助按钮 -->
+				<cfg id="btnHelp" value="1" />
+				
+				<!-- 是否显示左下文字广告 -->
+				<cfg id="adText" value="0" />
+
+				<!-- 是否显示底部工具栏选服按钮 -->
+				<cfg id="btnSelectServer" value="0" />
+				<!-- 是否显示底部工具栏小号按钮 -->
+				<cfg id="btnSubAccount" value="0" />
+				<!-- 是否显示底部工具栏托管按钮 -->
+				<cfg id="btnMamagedAccount" value="0" />
+				<!-- 是否显示底部工具栏闹钟按钮 -->
+				<cfg id="btnTimer" value="0" />
+				<!-- 是否显示底部工具栏清缓存按钮 -->
+				<cfg id="btnClearIeCatch" value="1" />				
+				<!-- 是否显示底部工具栏静音按钮 -->
+				<cfg id="btnMute" value="1" />
+				<!-- 是否显示底部工具栏截图按钮 -->
+				<cfg id="btnCapScr" value="1" />
+				<!-- 是否显示底部工具栏刷新按钮 -->
+				<cfg id="btnRefresh" value="1" />
+				<!-- 是否显示底部工具栏客服按钮 -->
+				<cfg id="btnKf" value="1" />
+				
+				<!-- 是否显示页游资讯菜单项 -->
+				<cfg id="menuGameInfo" value="1" />
+				<!-- 是否显示官方论坛菜单项 -->
+				<cfg id="menuBBS" value="1" />
+				<!-- 是否显示走进我们菜单项 -->
+				<cfg id="menuIntoUs" value="0" />
+				<!-- 是否显示客服中心菜单项 -->
+				<cfg id="menuKfCenter" value="1" />
+				<!-- 是否显示新手帮助菜单项 -->
+				<cfg id="menuNewerHelp" value="0" />
+				<!-- 是否显示多玩招聘菜单项 -->
+				<cfg id="menuRecruit" value="0" />
+				<!-- 是否显示大厅设置菜单项 -->
+				<cfg id="menuHallSetting" value="1" />
+				<!-- 是否显示关于菜单项 -->
+				<cfg id="menuAbout" value="1" />
+
+				<!-- 是否显示标签栏全屏按钮 -->
+				<cfg id="btnFullScr" value="1" />
+				<!-- 是否显示标签栏问答按钮 -->
+				<cfg id="btnWenDa" value="1" />
+				<!-- 是否显示标签栏游戏公告按钮 -->
+				<cfg id="btnGameNotify" value="0" />
+				<!-- 是否显示标签栏问问按钮 -->
+				<cfg id="btnWenWen" value="1" />
+				<!-- 是否显示标签栏游戏工具按钮 -->
+				<cfg id="btnGameTool" value="1" />
+				<!-- 是否显示标签栏悠聊按钮 -->
+				<cfg id="btnYTalk" value="0" />
+				<!-- 是否显示标签栏锁定开关按钮 -->
+				<cfg id="btnPinOn" value="1" />
+				<!-- 是否显示标签栏游戏下拉菜单按钮 -->
+				<cfg id="btnGameTabMenu" value="0" />
+				<!-- 是否显示推荐游戏 -->
+				<cfg id="showRemindGame" value="0" />
+				<!-- 是否显示kk的推荐游戏 -->
+				<cfg id="showRemindGame_kk"value="1" />
+			</yygame>
+			<yygcenter>
+				<cfg id="autoLogin" value="0" />
+				<cfg id="information" value="0" />				
+			</yygcenter>
+		</product>
+		<product name="YY绑定版" code="yygame_oem_yy" oemVersion="0">
+			<yygame>
+				<!-- 是否启用升级模块 -->
+				<cfg id="update" value="1" />
+				<!-- 是否连接开放平台 -->
+				<cfg id="connectOp" value="1" />
+				<!-- 登录时是否注册用户信息 -->
+				<cfg id="regUserInfo" value="1" />
+				<!-- 是否显示用户头像 -->
+				<cfg id="showUserIcon" value="1" />
+				<!-- 打开游戏时的默认标签位置 -->
+				<cfg id="gameTabPos" value="2" />		
+				<!-- 是否显示大厅首页 -->
+				<cfg id="showHome" value="1" />
+				<!-- 是否显示更多游戏页面 -->
+				<cfg id="showMoreGame" value="1" />
+				<!-- 是否启用悠聊模块 -->
+				<cfg id="ytalk" value="1" />
+								
+				<!-- 位置相关，正数表示从左上开始计算，负数表示从右下计算，-->
+				<cfg id="tbPassportLeft" value="64" />
+				<cfg id="tbPassportTop" value="45" />
+				<cfg id="webLeft" value="1" />
+				<cfg id="webTop" value="101" />
+				
+				<!-- 大厅主界面背景资源图 -->
+				<cfg id="imgWndHall" value="game_background.png" />
+				
+				<!-- 显示显示标题栏任务按钮 -->
+				<cfg id="btnTask" value="1" />
+				<!-- 是否显示标题栏信息按钮 -->
+				<cfg id="btnInfo" value="1" />
+				<!-- 是否显示标题栏快快游戏按钮 -->
+				<cfg id="btnKKGame" value="1" />
+				<!-- 是否显示标题栏充值按钮 -->
+				<cfg id="btnPay" value="1" />
+				<!-- 是否显示标题栏VIP公会按钮 -->
+				<cfg id="btnVipGuild" value="1" />
+				
+				<!-- 是否显示系统栏反馈按钮 -->
+				<cfg id="btnFeedback" value="1" />
+				<!-- 是否显示系统栏退出游戏大厅按钮 -->
+				<cfg id="btnExitGamehall" value="1" />
+				<!-- 是否显示系统栏帮助按钮 -->
+				<cfg id="btnHelp" value="1" />
+				
+				<!-- 是否显示左下文字广告 -->
+				<cfg id="adText" value="1" />
+				
+				<!-- 是否显示底部工具栏选服按钮 -->
+				<cfg id="btnSelectServer" value="1" />
+				<!-- 是否显示底部工具栏小号按钮 -->
+				<cfg id="btnSubAccount" value="1" />
+				<!-- 是否显示底部工具栏托管按钮 -->
+				<cfg id="btnMamagedAccount" value="1" />
+				<!-- 是否显示底部工具栏闹钟按钮 -->
+				<cfg id="btnTimer" value="1" />
+				<!-- 是否显示底部工具栏清缓存按钮 -->
+				<cfg id="btnClearIeCatch" value="1" />		
+				<!-- 是否显示底部工具栏静音按钮 -->
+				<cfg id="btnMute" value="1" />
+				<!-- 是否显示底部工具栏截图按钮 -->
+				<cfg id="btnCapScr" value="1" />
+				<!-- 是否显示底部工具栏刷新按钮 -->
+				<cfg id="btnRefresh" value="1" />
+				<!-- 是否显示底部工具栏客服按钮 -->
+				<cfg id="btnKf" value="1" />
+
+				<!-- 是否显示页游资讯菜单项 -->
+				<cfg id="menuGameInfo" value="1" />
+				<!-- 是否显示官方论坛菜单项 -->
+				<cfg id="menuBBS" value="1" />
+				<!-- 是否显示走进我们菜单项 -->
+				<cfg id="menuIntoUs" value="1" />
+				<!-- 是否显示客服中心菜单项 -->
+				<cfg id="menuKfCenter" value="1" />
+				<!-- 是否显示新手帮助菜单项 -->
+				<cfg id="menuNewerHelp" value="1" />
+				<!-- 是否显示多玩招聘菜单项 -->
+				<cfg id="menuRecruit" value="1" />
+				<!-- 是否显示大厅设置菜单项 -->
+				<cfg id="menuHallSetting" value="1" />
+				<!-- 是否显示关于菜单项 -->
+				<cfg id="menuAbout" value="1" />
+
+				<!-- 是否显示标签栏全屏按钮 -->
+				<cfg id="btnFullScr" value="1" />
+				<!-- 是否显示标签栏问答按钮 -->
+				<cfg id="btnWenDa" value="1" />
+				<!-- 是否显示标签栏游戏公告按钮 -->
+				<cfg id="btnGameNotify" value="1" />
+				<!-- 是否显示标签栏问问按钮 -->
+				<cfg id="btnWenWen" value="1" />
+				<!-- 是否显示标签栏游戏工具按钮 -->
+				<cfg id="btnGameTool" value="1" />
+				<!-- 是否显示标签栏悠聊按钮 -->
+				<cfg id="btnYTalk" value="1" />
+				<!-- 是否显示标签栏锁定开关按钮 -->
+				<cfg id="btnPinOn" value="1" />
+				<!-- 是否显示标签栏游戏下拉菜单按钮 -->
+				<cfg id="btnGameTabMenu" value="1" />
+				<!-- 是否显示推荐游戏 -->
+				<cfg id="showRemindGame" value="1" />
+			</yygame>
+			<yygcenter>
+				<cfg id="autoLogin" value="1" />
+				<cfg id="information" value="1" />				
+			</yygcenter>
+		</product>		
+	</oemList>
+</root>

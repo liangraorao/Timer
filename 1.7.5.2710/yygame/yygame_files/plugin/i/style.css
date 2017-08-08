@@ -1,0 +1,27 @@
+
+ul,div,h3,p,li{font-size:12px;padding:0;margin:0;}
+li{list-style-type:none;}
+
+/**/
+.page{width:330px;height:194px;position:absolute;left:50%;top:50%;margin:-97px 0 0 -165px;overflow-y:auto;overflow-x:hidden}
+.mhd{height:23px;line-height:23px;background:url(t-headbg.gif) repeat-x 10px;}
+.mhd h3{color:#484848;font-weight:normal;float:left;padding-right:5px;background:#f7fafc}
+.mbd{margin:5px 0;}
+.mbd p{line-height:18px; color:#484848;white-space:normal;word-wrap:break-word; overflow:hidden;}
+.mod1 .mbd{border:#bdd6ed solid 1px;background:#fff;padding:1px 1px 0;}
+.t-head{background:#d7f0fd}
+.mod1 ul{overflow:hidden;width:289px;}
+.mod1 ul li{float:left;padding:4px 5px 3px;border:#bdd6ed solid;border-width:1px 1px 0 0;}
+.mod1 .t-head li{background:url(tr-1.gif) no-repeat right center;border:0;}
+.mod2 .mhd{margin-top:10px}
+.mod2 .mbd{line-height:1.6em;}
+/**/
+.li1{width:62px;}
+.li2{width:90px;}
+.li3{width:29px;}
+.li4{width:60px;}
+.li5{width:89px;}
+.li6{width:28px;}
+.mod1 ul .backno{background:none}
+.mod1 ul .borno{border-right:0}
+.part{background:#f7fafc;padding:3px 10px}

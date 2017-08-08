@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<games>
+	<!-- 游戏列表，节点Tag为 游戏标识,-->
+	<astd >
+		<!--游戏中的插件配置 节点Tag为插件标识-->
+		<information   enable="false" />
+	</astd>
+	<ddt >
+		<information  enable="false" />
+	</ddt>
+</games>

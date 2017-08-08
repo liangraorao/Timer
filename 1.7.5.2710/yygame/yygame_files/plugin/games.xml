@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<games>
+	<!-- 游戏条目，
+		节点Tag为 游戏标识, 
+		name: 游戏名称, 
+		config: 游戏的配置文件名称
+		-->
+	<_AS name="傲世天地" config="yygame_files\plugin\ygpc_as.xml"  />
+	<_DDT name="弹弹堂" config="yygame_files\plugin\ygpc_ddt.xml" />
+</games>

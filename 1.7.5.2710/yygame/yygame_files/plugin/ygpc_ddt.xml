@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<!--游戏基本信息 
+	code	为游戏标识，
+	name 	为游戏名称，
+	width	游戏窗口宽度
+	height	游戏窗口高度
+	offset_x	游戏窗口水平偏移，-1表示居中
+	offset_y	游戏窗口垂直偏移，-1表示居中
+	-->
+<game code="ddt" name="弹弹堂" width="1000" height="600" offset_x="-1" offset_y="111">
+	<recognize width="1000" height="600" offset_x="-1" offset_y="111" >
+		<text_rects color="718588" >
+			<rect order="0" left="805" top="181" width="99" height="22" />
+		</text_rects>
+		
+		<image_rects>
+			<rect order="0" left="515" top="468" width="48" height="16" />
+		</image_rects>
+		
+		<scene id="1" name="啵咕王城[组队]">
+			<clip type="image" order="0" bits="16" key="FyACAAIAAAAAAAAAAAAAAAAAAAADAAAAAgABAgAAAAUAAwIFBAAAAAAAAAAAAAEBBAIEAQkHAAkAAAACAAMBAwAAAgAAAAAADQMFAQQJBQQDBAAGCAAGAQ0EAAQAAgAPAAAVAAAGBQADAAAKBQAAARQAARMCDAARAAEJAQcEBAMBAAEJDgAaAhoCDAkIFAAHAgANAAgDHgAKDAEDCQADBwQBEwMeAQAIAgAFAQAKAAcMAAgYAA0AAQAGCQAGAgAHAAAAAAAABAABAAUA" />
+			<clip type="image" order="0" key="FiMEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEQIAAAAAAAAAAQAAAAAAAAQABBoAAAAAAAYAAAAAAwMAAAACAAAAAAAAJgAJAAAAAAAAACQAAAAIAAAFAAAAACgAAAAAAAMQAAAAAAAAAAAiAAsAACAADQAAAAACCAkAAAAAAAA6FwAABCgAAAAADwAAACEAABIeAAAAAAAADgsAACoADAAEAAAAAAAWAAAAAAA5AAAAAAAAABcACAAAAAAAAAAAAAAK" />
+		</scene>
+		<scene id="2" name="黑暗堡垒[组队]">
+			<clip type="image" order="0" bits="16" key="CkwPAAARADcCHCwABCQACQsAAAEWAAAMAAQBAQsACAEBBQEGAAICAAYDBAIJAgIHAwAVCwEFBAEBAQAAAAQBBAQADAoACgAEBwAQAS8DBwgABQUBAQEICAILAgAOBAUGBwABBxECBwMCBgMFAgMEAQMAAwABAwAEAgAKAgMEAAcHBAUABwAAAAACAwAAAAAAAAAAAAAAAAAAAAAAAAEAAgAABwMABQIGAAUABAAA" />
+			<clip type="image" order="0" key="DlFyAAMABlkAAAEAAAAhAAAABgsAAAAKBAAAEAAAAAEFAAAABQcAAAoAAyMAAAATAAIAAAACAAAAAAUAACYAAAAACAABAABQBwAAAAIBABoAAAQAAgIAHgABAAAJARMABAYTAAALAAAEAgADAQAABQAAAwAACAMAABQADgAAAQAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEwAADg==" />
+		</scene>
+		<scene id="3" name="龙巢之战[组队]">
+			<clip type="image" order="0" bits="16" key="TSkCAAIAAAAAAgACAAAAAAICAAAAAQAAAAEAAAIAAAAAAAIAAAAAAgACAAAAAAAAAAIABQAAAAACAAcAAgAACAACAAIAIAAAKQAaACMIAC0ADwIWAQcHAQYNBQUKAwAABAsAEBkDAAQAIQAWAAMDABMAEQABJwIHDwQNACYCACAACAApCAAFABgUAA0A" />
+			<clip type="image" order="0" key="Ti4EAAAAAAAAAAAGAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAQAAAADAAAAAAAAAA8AAAAIAAAAAAAAUQAAAAAAUg0bAAAAAAkAMAEAAAAAGAAAAgAAAAAAXAABAAAAAAwjAAAAAAAAAEsACQAAAABFAAYAAAIqAAAAAFY=" />
+		</scene>
+		<scene id="4" name="魔蚁之巢[组队]">
+			<clip type="image" order="0" bits="16" key="EQ8BAAABAAEAAAAAAQACAAQEAAUABAQACAAAAAAOAA4ACA0ACgkEAQITAAAEAgEBAQ8ABQAABgYEBgAIDggGFQADBAAGAAcDAQUBAAQACwICAQYAAgEABQUBAAEDAwAHARwABgYFBA0ADgEKAwMBCAENBQgHBQ0HAQYJAwQDAwMBAwIDAgcEAgYACAACBQMCBQEIBgIBBQMJAAMAAAAEAAIABwYAAwoHBAMBBQIDAQEBAwAFAQECAQMDAAEDAwEBAAYCAQEDAwEBAAMIAQYEAgICAAADAAACAQAFAAQEAwAABAAA" />
+			<clip type="image" order="0" key="EQ4CAAAAAAAAAQAAAwAAAAAKAAAJAAAADwAAAAAAJAAAABcAAAAAGwAAAwAKAgAAAAAWAAAAAAAADwAyAQQAAAADABgAAAAAAAABEQMDAAQBAAALAAAAAQAHAAMABAAAASgLAwIACAAPCAYAAAsBCQMCEBQAAAATBAcEBQIAAQAJAAgAAwEDBwoAAwAEAQAEAQUBFgoAAAAAAAYAAAAAAAEUAAAACAkABAAHAwAACQAAAAIHBQAAAgAAAwMAAAAAAAEJBgAAAAYAAAASBAAAAAACAAAFAAAAAgAACgMCAAAAAAY=" />
+		</scene>
+		<scene id="5" name="邪神部落[组队]">
+			<clip type="image" order="0" bits="16" key="Dg0CAgAFAAAAAAEEAAIAAQACAAAAAAAAAAAAAQABAAABAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAABAAABAAAAAAABAgAAAQABAgADAAAAAQAAAAADAQAAAAAAAAACAwEEAAADAAMAAAABAQUBCQISAAEVBgoQBgEVAQQDDQYMBQUABxECAgAJAgcCBgAcAQgDCQAMAAADAAEBAAMAAQANAAEDBQMSFQUIEwsLGQcEAxAMBhgAJAEAKAAICAAAAgAEBAQABgAMAAANAAAEAAQDBgAAAAIAAAAAAAAAAQAAAAAAAAABAAQp" />
+			<clip type="image" order="0" key="DggBCAAAAAAAAAADBgAAAQAAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAcAAgAAAAAAAAMAAAABAAABAAABAAAAAwkAAAAAAAAAAAQCAAgBAAAPKwAAAAUACzMAAAAAABwAAAAAJQAAAwAFAAQAABEBMgAAAQAAAAEAAAAIAAAAAAACABkAEAALAB8OAQA3AAAQBBkAAAAAVwkAAAAAEgAAAAABAAAaAAAAAAAAEAAAAA4AAQAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAEACk=" />
+		</scene>
+		<scene id="11" name="啵咕王城[1]" >
+			<clip type="text" order="0" bits="57,70,85,68" />
+		</scene>
+		<scene id="12" name="啵咕王城[2]" >
+			<clip type="text" order="0" bits="57,70,53,50" />
+		</scene>
+		<scene id="13" name="啵咕王城[3]" >
+			<clip type="text" order="0" bits="46,69" />
+		</scene>
+		<scene id="14" name="啵咕王城[4]" >
+			<clip type="text" order="0" bits="57,70,86,53" />
+		</scene>
+		<scene id="15" name="啵咕王城[5]" >
+			<clip type="text" order="0" bits="57,70,83,62,86,53" />
+		</scene>
+		<scene id="21" name="黑暗堡垒[1]" >
+			<clip type="text" order="0" bits="81,39,79,74,74" />
+		</scene>
+		<scene id="22" name="黑暗堡垒[2]" >
+			<clip type="text" order="0" bits="57,70,107,65,80" />
+		</scene>
+		<scene id="23" name="黑暗堡垒[3]" >
+			<clip type="text" order="0" bits="58,72,81,72,80" />
+		</scene>
+		<scene id="31" name="龙巢之战[1]" >
+			<clip type="text" order="0" bits="58,71,69,60" />
+		</scene>
+		<scene id="32" name="龙巢之战[2]" >
+			<clip type="text" order="0" bits="50,72,69,60" />
+		</scene>
+		<scene id="33" name="龙巢之战[3]" >
+			<clip type="text" order="0" bits="58,71,31,68,111" />
+		</scene>
+		<scene id="34" name="龙巢之战[4]" >
+			<clip type="text" order="0" bits="50,76,56,59" />
+		</scene>
+		<scene id="41" name="魔蚁之巢[1]" >
+			<clip type="text" order="0" bits="58,72,74,69" />
+		</scene>
+		<scene id="42" name="魔蚁之巢[2]" >
+			<clip type="text" order="0" bits="58,72,54,76,68,61" />
+		</scene>
+		<scene id="51" name="邪神部落[1]" >
+			<clip type="text" order="0" bits="57,70,72,30" />
+		</scene>
+		<scene id="52" name="邪神部落[2]" >
+			<clip type="text" order="0" bits="52,85,85,61,59,64" />
+		</scene>
+		<scene id="53" name="邪神部落[3]" >
+			<clip type="text" order="0" bits="57,70,74,85,52,69" />
+		</scene>
+		<scene id="54" name="邪神部落[4]" >
+			<clip type="text" order="0" bits="57,70,66,48,71" />
+		</scene>
+	</recognize >
+	
+	<plugins>
+		<!-- 精准资讯 -->
+		<ygp_information width="400" height="300" url="yygame_files\plugin\ygp_info_ddt.xml" tip="精准资讯：在副本组队界面和各个小关卡中显示副本攻略要点。" >
+			<!--精准资讯场景的热点信息
+				scene	场景ID，0表示适用所有场景
+				id		热点ID，
+				left,top,width,height	热点在游戏窗口的位置与大小
+				image	热点窗口使用的背景图
+			-->
+			<hot scene="1" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="2" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="3" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="4" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="5" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="11" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="12" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="13" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="14" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="15" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="21" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="22" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="23" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="31" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="32" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="33" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="34" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="51" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="52" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="53" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+			<hot scene="54" id="256" left="916" top="420" width="24" height="24" image="yygame_image\ygp_point_0.png" />
+		</ygp_information>
+	</plugins>
+</game>

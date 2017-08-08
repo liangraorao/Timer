@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<YYGameRes version="1.0">
+    <Strings>
+		<S ID="IDS_XXX"><![CDATA[XXX]]></S>
+		<S ID="IDS_APP_TITLE">YYGame</S>
+		<S ID="IDS_APP_MSG_TITLE">YY游戏大厅</S>
+		<S ID="IDS_APP_TRAYICON_FORMAT">{r}{n}昵称：%s{r}{n}大厅等级：%d</S>
+		<S ID="IDS_APP_FAILED_TO_INIT">初始化失败！程序退出！</S>
+		<S ID="IDS_APP_ERROR">错误！</S>
+		<S ID="IDS_APP_SELECTED_SERVICE">选服</S>
+		
+		<S ID="IDS_WND_BASE_BTN_OK">确定</S>
+		<S ID="IDS_WND_BASE_BTN_FEEDBACK">意见反馈</S>
+		<S ID="IDS_WND_BASE_BTN_CLOSE_TIP">关闭</S>
+		<S ID="TXT_TIP_CHOOSEGAME">选择游戏</S>
+		<S ID="TXT_TIP_EDIT">修改</S>
+		<S ID="TXT_TIP_DEL">删除</S>
+		<S ID="TXT_WND_DOWNLOAD_FAILED">下载失败，请稍候再重试！</S>
+		<S ID="TXT_WND_DOWNLOAD_FAILED_CAPTION">图片查看提示</S>
+		<WND_HALL>
+			<S ID="TITLE">YY游戏</S>
+			<S ID="BTN_HELP_TIP">帮助</S>
+			<S ID="BTN_MIN_TIP">最小化</S>
+			<S ID="BTN_MAX_TIP">最大化</S>
+			<S ID="BTN_RESTORE_TIP">还原</S>
+			<S ID="BTN_CLOSE_TIP">关闭</S>
+			<S ID="BTN_EXIT_TIP">退出游戏大厅</S>
+			<S ID="PASSPORT_NOTIFY_CAP">信息</S>
+			<S ID="PASSPORT_NOTIFY_TIP">信息中心</S>
+			<S ID="PASSPORT_TASK_CAP">任务</S>
+			<S ID="PASSPORT_TASK_TIP">打开任务系统</S>
+			<S ID="PASSPORT_PAY_CAP">充值</S>
+			<S ID="PASSPORT_PAY_TIP">进入充值页面</S>
+			<S ID="PASSPORT_GROUP_CAP">VIP公会</S>
+			<S ID="PASSPORT_GROUP_TIP">打开我的公会列表</S>
+			<S ID="PASSPORT_GAMEBOX_CAP">快快游戏</S>
+			<S ID="PASSPORT_GAMEBOX_TIP">快快游戏</S>	
+			<S ID="HELPER_MUTE_TIP">静音</S>
+			<S ID="HELPER_CAPSCR_TIP">截图</S>
+			<S ID="HELPER_REFRESH_TIP">刷新当前页面</S>
+			<S ID="HELPER_KF_TIP">客服服务时间: 10:00-22:00</S>
+			<S ID="HELPER_CLEARIECATCH_TIP">清除IE缓存</S>
+			<S ID="HELPER_MUTE_CAP">静音</S>
+			<S ID="HELPER_CAPSCR_CAP">截图</S>
+			<S ID="HELPER_REFRESH_CAP">刷新</S>
+			<S ID="HELPER_KF_CAP">客服</S>
+			<S ID="HELPER_CLEARIECATCH_CAP">清缓存</S>
+			<S ID="PLUGIN_ACCOUNT_SUB_TIP">小号</S>
+			<S ID="PLUGIN_ACCOUNT_MANAGED_TIP">帐号托管</S>
+			<S ID="PLUGIN_INFORMATION_TIP">精准资讯</S>
+			<S ID="PLUGIN_INTERACTIVE_TIP">信息互动</S>
+			<S ID="PLUGIN_UTILIZE_TIP">套层工具</S>
+			<S ID="PLUGIN_GAMETIMER_TIP">闹钟</S>
+			<S ID="PLUGIN_ACCOUNT_SUB_CAP">小号</S>
+			<S ID="PLUGIN_ACCOUNT_MANAGED_CAP">帐号托管</S>
+			<S ID="PLUGIN_INFORMATION_CAP">精准资讯</S>
+			<S ID="PLUGIN_INTERACTIVE_CAP">信息互动</S>
+			<S ID="PLUGIN_GAMETIMER_CAP">闹钟 </S>
+			<S ID="TAB">更多</S>
+			<S ID="TAB_NEW_TITLE">新标签</S>
+			<S ID="MENU_YBLOG">打开Y博</S>
+			<S ID="MENU_WEB">页游资讯</S>
+			<S ID="MENU_BBS">官方论坛</S>
+			<S ID="MENU_FEEDBACK">意见反馈</S>
+			<S ID="MENU_KF">客服中心</S>
+			<S ID="MENU_HELP">新手帮助</S>
+			<S ID="MENU_SETTING">大厅设置</S>
+			<S ID="MENU_RECRUIT">多玩招聘</S>
+			<S ID="MENU_INTOUS">走进我们</S>			
+			<S ID="MENU_ABOUT">关于</S>			
+			<S ID="MENU_LQYP">领取月票</S>
+			<S ID="RIGHTBAR_WENDANOTIFY">问答</S>
+			<S ID="RIGHTBAR_GAMENOTIFY">游戏公告</S>
+			<S ID="RIGHTBAR_GAMETOOL">辅助工具</S>
+			<S ID="RIGHTBAR_GAMERAIDERS">辅助攻略</S>
+			<S ID="RIGHTBAR_WENWEN">问问</S>
+			<S ID="RIGHTBAR_FULLSCR">全屏</S>
+			<S ID="RIGHTBAR_FULLSCR_TIP">全屏</S>
+			<S ID="RIGHTBAR_FULLSCR_C">窗口</S>
+			<S ID="RIGHTBAR_FULLSCR_C_TIP">退出全屏</S>
+			<S ID="RIGHTBAR_YTALK">悠聊</S>
+			<S ID="RIGHTBAR_PINON_TIP">锁定</S>
+			<S ID="RIGHTBAR_PINOFF_TIP">解除锁定</S>
+			<S ID="RIGHTBAR_YTALK_TIP">悠聊</S>
+			<S ID="BTN_HALLEXP_FORMAT">大厅等级: %d (大厅经验: %d)</S>
+			<S ID="PLUGIN_MENU_SHOW_LATEST">显示最新</S>
+			<S ID="PLUGIN_MENU_SHOW_ALL">显示全部</S>
+			<S ID="PLUGIN_MENU_CREATE_HOT">创建热点</S>
+			<S ID="TRAY_MENU_OPEN_HALL">打开游戏大厅</S>
+			<S ID="TRAY_MENU_EXIT">退出</S>
+			<S ID="GAMETAB_MENU_OPEN_VIPGUILD">打开VIP公会</S>
+			<S ID="GAMETAB_MENU_CREATE_SHORTCUT">创建桌面快捷方式</S>
+			<S ID="GAMETAB_MENU_GAME_WEBSITE">游戏官网</S>
+			<S ID="GAMETAB_MENU_GAME_STRATEGY">游戏攻略</S>
+			<S ID="SUBACCOUNT_MENU_GAME_BIGGAME">所属大号</S>
+			<S ID="SUBACCOUNT_MENU_ADD_SMALLGAME">添加小号</S>
+			<S ID="MANAGED_MENU_NOT">暂未收到托管账号</S>
+			<S ID="MANAGED_MENU_ADD">添加托管</S>
+			<S ID="MANAGED_MENU_MANAGED">托管管理</S>
+			<S ID="MANAGED_MENU_ADD_GAMETIMER">添加闹钟</S>
+			<S ID="MANAGED_MENU_GAMETIMER_TODAY">今天</S>
+			<S ID="MANAGED_MENU_GAMETIMER_TOMORROW">明天</S>
+			<S ID="MANAGED_MENU_GAMETIMER_AFTERTOMORROW">后天</S>
+			<S ID="MANAGED_MENU_GAMETIMER_EVERYDAY">每天</S>
+			<S ID="MANAGED_MENU_GAMETIMER_FEWDAY">天后</S>
+			<S ID="SUBACCOUNT_WND_ENTERGAME">进入游戏</S>
+			<S ID="MSG_TOO_MANY_OPEN_LABEL">不能同时打开太多的标签！</S>
+			<S ID="CUR_GAME_SCENE"><![CDATA[当前游戏场景： ]]></S>
+			<S ID="CUR_GAME_SCENE_UNKNOWN"><![CDATA[未知]]></S>
+			<S ID="MSG_ENTER_GAME_BIGGAME">您需要先进入一个游戏，再使用小号进入相同的游戏服务器！</S>
+			<S ID="MSG_REMOVE_ACCOUNT">您确定要取消与该账号的托管关系？</S>
+			<S ID="MSG_REMOVE_ACCOUNT_SUCCESS">取消成功</S>
+			<S ID="MSG_REMOVE_SMALLGAME">您确定要删除该小号？</S>
+			<S ID="MSG_REMOVE_SMALLGAME_SUCCESS">删除成功!</S>
+			<S ID="TXT_CREATE_SHORTCUT_FORMAT">已创建 “%s” 桌面图标。</S>
+			<S ID="SUBACCOUNT_MENU_GUIDE">如何使用小号</S>
+			<S ID="MANAGED_MENU_GUIDE">如何使用托管</S>
+			<S ID="MSG_ADD_TRUSTSUBACCOUNT">您需要先进入一个游戏服务器才能添加托管</S>
+			<S ID="GAMETOOL_NOGAME">您已经关闭了[%s]游戏，请打开您的游戏后在右上角使用！</S>
+			<S ID="BTN_FEEDBACK_TIP">意见反馈</S>
+			<S ID="TAB_MORE">更多游戏</S>
+			<S ID="PLUGIN_SELECT_SERVER_CAP">选服</S>
+			<S ID="PLUGIN_SELECT_SERVER_TIP">选服</S>
+			<S ID="BTN_MOREGMAES_TIP">列出其它标签页</S>
+			<S ID="BTN_CAPSCR_GUIDE">YY游戏大厅截图功能支持快捷键了！{r}{n}快捷键：Ctrl+Alt+X{r}{n}（可在大厅设置中修改）</S>
+		</WND_HALL>
+		
+		<WND_GUIDE>
+			<S ID="BTN_NEXT">下一条</S>
+			<S ID="BTN_CLOSE">关闭</S>
+			<S ID="BTN_SETTING">设置</S>
+		</WND_GUIDE>
+		
+		<HOTKEY_TIP>
+			<S ID="TEXT_FIRST">哦哦，老板键与其他热键冲突了，</S>	
+			<S ID="TEXT_SECOND">下吧！</S>	
+		</HOTKEY_TIP>	
+
+		<YTALK_PIC_PROMPT>
+			<S ID="TITLE">提示</S>
+			<S ID="TEXT_FIRST">成功添加</S>
+			<S ID="TEXT_SECOND">个表情！</S>
+			<S ID="TEXT_THIRD">个表情超过1MB，无法添加！</S>
+			<S ID="TEXT_FOURTH">添加失败！</S>
+			<S ID="TEXT_FIFTH">超过添加表情最大数目！</S>
+		</YTALK_PIC_PROMPT>	
+
+		<YTALK_GUIDE>
+			<S ID="TEXT_FIRST">您已获得</S>
+			<S ID="TEXT_SECOND">1</S>
+			<S ID="TEXT_THIRD">个悠聊限量内测邀请码！</S>
+			<S ID="TEXT_FOURTH">已复制！再复制</S>
+		</YTALK_GUIDE>
+
+		<YTALK_GUIDE2>
+			<S ID="TEXT_FIRST">您还有</S>
+			<S ID="TEXT_SECOND">5</S>
+			<S ID="TEXT_THIRD">个邀请码未使用哦，亲！</S>
+		</YTALK_GUIDE2>
+
+		<WND_ABOUT>
+			<S ID="COPYRIGHT">欢聚时代-游戏事业部 版权所有</S>
+			<S ID="VERSION">游戏大厅版本</S>
+			<S ID="TITLE">关于游戏大厅</S>	
+		</WND_ABOUT>
+		
+		<WND_GUIDELIST>
+			<S ID="TITLE">公会群</S>
+			<S ID="BTN_CREATE">创建</S>
+			<S ID="BTN_FIND">查找</S>
+		</WND_GUIDELIST>
+		
+		<WND_CLOSEHALL>
+			<S ID="TITLE"><![CDATA[   退出提醒]]></S>
+			<S ID="BTN_OK">确定</S>
+			<S ID="BTN_CANCEL">取消</S>
+			<S ID="CHK_EXIT">以后直接退出</S>
+			<S ID="TXT_CONFIRM_EXIT">是否确定退出YY游戏？</S>
+		</WND_CLOSEHALL>
+
+		<WND_CREATESHORTCUT>
+			<S ID="TITLE"><![CDATA[   收藏提醒]]></S>
+			<S ID="BTN_OK">收藏</S>
+			<S ID="BTN_CANCEL">取消</S>
+		</WND_CREATESHORTCUT>
+
+		<WND_CLOSEHALLREMIND>
+			<S ID="TITLE"><![CDATA[   退出提醒]]></S>
+			<S ID="BTN_CREATEICON">创建图标</S>
+			<S ID="BTN_LATER">以后再说</S>
+			<S ID="BTN_STARTGAME">开始游戏</S>
+			<S ID="CHK_ADD">添加%s到桌面</S>
+			<S ID="TXT_ADD">给喜欢的游戏来个有爱的桌面图标吧！</S>
+			<S ID="TXT_RECENTGAME">你最近常玩</S>
+			<S ID="TXT_CREATEICON">推荐你创建桌面图标，以后快速登录</S>
+			<S ID="TXT_REMINDGAME">你要走了吗？我们还有更好玩的游戏哦</S>
+			<S ID="TXT_REMINDGAME2">你最近常玩 %s ,推荐你也玩</S>
+		</WND_CLOSEHALLREMIND>
+		
+		<DLG_ANGLE>
+			<S ID="TXT_WIND_POWER">风力：</S>
+			<S ID="TXT_ANGLE_DES">角度：</S>
+			<S ID="TXT_ANGLE_TIP">建议使用以下参数攻击目标</S>
+			<S ID="TXT_INTENSITY_DES">力度：</S>
+			<S ID="TXT_WIND">顺风</S>
+			<S ID="TXT_HEADWIND">逆风</S>
+			<S ID="TXT_SEGMENT">————————————————————</S>
+			<S ID="TXT_ANGLE"><![CDATA[ — ]]></S>
+			<S ID="TXT_ANGLE_FORMAT">%d度</S>
+			<S ID="TXT_POWER"><![CDATA[ — ]]></S>
+			<S ID="TXT_OPEN_TTT_TIP">请确认已打开“弹弹堂”游戏并进入“游戏大厅”！</S>
+			<S ID="TXT_DISTANCE">[点击右图确定目标]</S>
+		</DLG_ANGLE>
+		
+		<WND_SUBACCOUNT>
+			<S ID="TITLE">所属大号</S>
+			<S ID="TXT_ACCOUNT">账号</S>
+			<S ID="TXT_CANCEL">取消</S>
+			<S ID="TXT_NONE_ACCOUNT">尚无其他用户将本账号加为小号。</S>
+			<S ID="MSG_REMOVE_SUBACCOUNT_FORMAT">您确定要取消该账号的大小号关系？</S>
+			<S ID="MSG_REMOVE_SUBACCOUNT_SUCCESS">取消成功</S>
+			<S ID="SUBACCOUNT_LOADING">加载中. . .</S>
+			<S ID="SUBACCOUNT_SUB_TITLE">我的小号</S>
+			<S ID="SUBACCOUNT_BIG_TITLE">我的大号</S>
+			<S ID="SUBACCOUNT_SUB_EMPTYTIP1">暂无小号</S>
+			<S ID="SUBACCOUNT_SUB_EMPTYTIP2">添加小号可同时使用多个账号</S>
+			<S ID="SUBACCOUNT_BIG_EMPTYTIP1">暂无大号</S>
+			<S ID="SUBACCOUNT_BIG_EMPTYTIP2">暂时没有账号将你添加为小号</S>
+			<S ID="SUBACCOUNT_SUB_TIP">你可以使用以下账号进入任何游戏</S>
+			<S ID="SUBACCOUNT_BIG_TIP">以下账号将你添加为小号</S>
+		</WND_SUBACCOUNT>
+
+		
+		<WND_ADDMAMANGED>
+			<S ID="TITLE">添加托管</S>
+			<S ID="EDIT_ACCOUNT_TIP">请输入对方YY号</S>
+			<S ID="EDIT_NICKNAME_TIP">请填写您在游戏中的名称!</S>
+			<S ID="TXT_MAMANGED_GAME">托管游戏：</S>
+			<S ID="TXT_MAMANGED_ACCOUNT">托管账号：</S>
+			<S ID="TXT_OTHER_ACCOUNT">YY号：</S>
+			<S ID="TXT_REMARKS">备注名称：</S>
+			<S ID="TXT_TRUST_ACCOUNT">请确保你托管的对象诚实可信</S>
+			<S ID="MSG_EMPTY_ACCOUNT">请输入对方YY号</S>
+			<S ID="MSG_ADD_ACCOUNT_SUCCESS">添加托管成功!</S>
+		</WND_ADDMAMANGED>
+		
+		<WND_ADDSUBACCOUNT>
+			<S ID="TITLE">添加小号</S>
+			<S ID="REGYY">注册</S>
+			<S ID="EDIT_ACCOUNT_TIP">请输入对方YY号</S>
+			<S ID="EDIT_NICKNAME_TIP">不填默认使用游戏账号作为名称</S>
+			<S ID="TXT_ACCOUNT">YY号：</S>
+			<S ID="TXT_PASSWORD">密码：</S>
+			<S ID="TXT_SUBACCOUNT">小号名称：</S>
+			<S ID="TXT_SUBACCOUNT_USE_TIP">新注册的YY号请先登陆激活</S>
+			<S ID="MSG_ADD_SUBACCOUNT_EXIST">提醒：该账号已经被添加为小号！</S>
+			<S ID="MSG_ADD_SUBACCOUNT_SUCCESS">添加小号成功!</S>
+		</WND_ADDSUBACCOUNT>
+		
+		<WND_MAMANGED>
+			<S ID="TITLE">托管管理</S>
+			<S ID="TXT_GAME">游戏</S>
+			<S ID="TXT_MAMANGED_ACCOUNT">托管账号</S>
+			<S ID="TXT_MAMANGED">被托管人</S>
+			<S ID="TXT_CANCEL">取消</S>
+			<S ID="TXT_EMPTY_ACCOUNT">您尚未托管任何账号给其它用户。</S>
+			<S ID="MSG_CANCEL_MAMANGED">您确定要取消与该账号的托管关系？</S>
+			<S ID="MSG_CANCEL_MAMANGED_SUCCESS">取消成功</S>
+			<S ID="LIST_CTRL_TIP">点击取消托管</S>
+			<S ID="MAMANGED_LOADING">加载中. . .</S>
+			<S ID="MANAGED_TITLE">托管给我</S>
+			<S ID="HOST_TITLE">我的托管</S>
+			<S ID="MANAGED_EMPTYTIP1">暂无记录</S>
+			<S ID="MANAGED_EMPTYTIP2">添加托管可将游戏托管给其它玩家</S>
+			<S ID="HOST_EMPTYTIP1">暂无记录</S>
+			<S ID="HOST_EMPTYTIP2">添加托管可将游戏托管给其它玩家</S>
+			<S ID="MANAGED_TIP">以下是其它玩家托管给你的游戏</S>
+			<S ID="HOST_TIP">以下是你托管给其它玩家的游戏</S>
+		</WND_MAMANGED>
+		<WND_MODIFYMAMANGED>
+			<S ID="TITLE">修改托管备注名</S>
+			<S ID="EDIT_REMARKS_TIP">请填写备注名称!</S>
+			<S ID="TXT_MAMANGED_GAME">托管游戏：</S>
+			<S ID="TXT_NEW_REMARKS">新备注名：</S>
+			<S ID="TXT_REMARKS">备注名称方便您记忆</S>
+			<S ID="MSG_MODIFY_SUCCESS">修改备注成功!</S>
+		</WND_MODIFYMAMANGED>
+		
+		<WND_MODIFYSUBACCOUNT>
+			<S ID="TITLE">修改小号</S>
+			<S ID="EDIT_REMARKS_TIP">请填写备注名称!</S>
+			<S ID="TXT_NAME">小号名称：</S>
+			<S ID="TXT_ACCOUNT">游戏账号：</S>
+			<S ID="MSG_MODIFY_SUCCESS">修改小号名称成功!</S>
+		</WND_MODIFYSUBACCOUNT>
+		
+		<API_YBLOG>
+			<S ID="POST_SUCCEEDED">成功</S>
+			<S ID="POST_FAIL_IMG_OVER5M">失败 - 图片超过5M</S>
+			<S ID="POST_FAIL_STORAGE_ERROR">失败 - 图片存储失败</S>
+			<S ID="POST_FAIL_TEXT_SENSITIVE">失败 - 内容包含敏感字符</S>
+			<S ID="POST_FAIL_TEXT_ERROR">失败 - 内容出错</S>
+			<S ID="POST_FAIL_TEXT_IMG_BLANK">失败 - 内容和图片都为空</S>
+		</API_YBLOG>
+		
+		<WND_YBLOG>
+			<S ID="EDIT_YBLOG_TIP">你可以在这里输入文字，并把截图作为附图，快速发送到Y博。</S>
+			<S ID="EDIT_YBLOG_SHARE_TIP">分享图片</S>
+		</WND_YBLOG>
+		
+		<WND_YBLOGUPLOAD>
+			<S ID="TXT_UPLOAD">正在上传，请稍候...</S>
+			<S ID="BTN_OK">确定</S>
+			<S ID="TXT_NEED_LOGIN">请先登录完成再使用此功能。</S>
+			<S ID="TXT_SEND_SUCCESS">发送到Y博成功。</S>
+			<S ID="TXT_SEND_FAILED">发送到Y博失败。</S>
+		</WND_YBLOGUPLOAD>
+		
+		<BAR_SCREENSHOT>
+			<S ID="BTN_RECTANGLE_TIP">矩形工具</S>
+			<S ID="BTN_OVAL_TIP">椭圆工具</S>
+			<S ID="BTN_ARROW_TIP">箭头工具</S>
+			<S ID="BTN_BRUSH_TIP">画刷工具</S>
+			<S ID="BTN_TEXT_TIP">文字工具</S>
+			<S ID="BTN_UNDO_TIP">撤消编辑</S>
+			<S ID="BTN_SAVE_TIP"><![CDATA[保存    ]]></S>
+			<S ID="BTN_YBLOG_TIP">Y博工具 </S>
+			<S ID="BTN_EXIT_TIP">退出截图</S>
+			<S ID="BTN_COMPLETE_TIP">完成截图</S>
+		</BAR_SCREENSHOT>
+		
+		<WND_SCREENSHOT>
+			<S ID="BTN_RECTANGLE_TIP">矩形工具1</S>
+			<S ID="BTN_OVAL_TIP">椭圆工具</S>
+			<S ID="BTN_ARROW_TIP">箭头工具</S>
+			<S ID="BTN_BRUSH_TIP">画刷工具</S>
+			<S ID="BTN_TEXT_TIP">文字工具</S>
+			<S ID="BTN_UNDO_TIP">撤消编辑</S>
+			<S ID="BTN_SAVE_TIP">保存</S>
+			<S ID="BTN_YBLOG_TIP">Y博工具 </S>
+			<S ID="BTN_EXIT_TIP">退出截图</S>
+			<S ID="BTN_COMPLETE_TIP">完成截图</S>
+			<S ID="TXT_AREA_FORMAT">区域大小: %d×%d</S>
+			<S ID="TXT_COMPLETE_TIP">双击可以快速完成截图。</S>
+			<S ID="SAVE_DLG_DEF_FILE_NAME">YY大厅截图未命名</S>
+			<S ID="SAVE_DLG_FILTER_NAME">JPG图片(*.jpg)|*.jpg|BMP位图(*.bmp)|*.bmp|PNG图片(*.png)|*.png||</S>
+			<S ID="BTN_YTALK_TIP">发送到悠聊</S>
+		</WND_SCREENSHOT>
+		
+		<WND_CLEARIECACHE>
+			<S ID="TITLE">清理IE缓存</S>
+			<S ID="TXT_WORKING">正在清理IE缓存，请稍候...</S>
+			<S ID="TXT_COMPLETE">恭喜您，IE缓存清理完成。</S>
+			<S ID="TXT_CANCEL">清理工作已经被取消了。</S>
+			<S ID="TXT_CLEAR_1">清理前请退出游戏！本功能可解决部分游戏显示不正常的问题，</S>
+			<S ID="TXT_CLEAR_2">但再次进入游戏需重新加载。</S>
+			<S ID="BTN_MINIMIZE">后台清理</S>
+			<S ID="BTN_CANCEL">取消</S>
+			<S ID="BTN_CLOSE">关闭</S>
+		</WND_CLEARIECACHE>
+		
+		<PLUGIN_INTERACTIVE>
+			<S ID="MSG_SCENE_UNKNOWN">创建热点失败：未知的游戏场景。</S>
+			<S ID="MSG_SCENE_RECT">创建热点失败：请选择游戏范围内的位置。</S>
+			<S ID="MSG_SCENE_SERVER_CODE_FORMAT">创建热点失败：服务器返回错误 %d 。</S>
+		</PLUGIN_INTERACTIVE>
+		
+		<PLUGIN_INFO>
+			<S ID="TITLE">信息互动</S>
+		</PLUGIN_INFO>
+		
+		<WND_HALLSETTING>
+			<S ID="TITLE">游戏大厅选项设置</S>
+			<S ID="MSG_INVALID_SHORTCUT">输入的快捷方式无效，请重新输入</S>
+			<S ID="MSG_EXIST_SHORTCUT">输入的快捷方式存在冲突，请重新输入。</S>
+			<S ID="MSG_RESTORE_DEFAULT_BOSSKEY">是否将现有老板键设置恢复默认？</S>
+			<S ID="MSG_RESTORE_DEFAULT_GAMETOOL">是否将现有辅助工具快捷键设置恢复默认？</S>
+			<S ID="BTN_CANCEL">取消</S>
+			<S ID="BTN_EXIT">退出游戏大厅时提醒我</S>
+			<S ID="BTN_EXIT_TIP">退出游戏大厅时提醒我</S>
+			<S ID="BTN_RECOMMEND">退出时推荐游戏</S>
+			<S ID="BTN_RECOMMEND_TIP">退出时推荐游戏</S>
+			<S ID="BTN_DESKTOPICON">退出时提醒创建游戏桌面图标</S>
+			<S ID="BTN_DESKTOPICON_TIP">退出时提醒创建游戏桌面图标</S>
+			<S ID="BTN_RESTORE_DEFAULT">恢复默认</S>
+			<S ID="BTN_BOSSKEY"><![CDATA[老板键  ]]></S>
+			<S ID="BTN_BOSSKEY_TIP"><![CDATA[老板键  ]]></S>
+			<S ID="BTN_GAMETOOL">辅助工具</S>
+			<S ID="BTN_GAMETOOL_TIP">辅助工具</S>
+			<S ID="BTN_OPEN_LAST_GAME">自动打开上次未关闭的游戏标签</S>
+			<S ID="BTN_OPEN_LAST_GAME_TIP">自动打开上次未关闭的游戏标签</S>
+			<S ID="BTN_GAMERAIDERS_TIP">打开辅助攻略</S>
+			<S ID="BTN_CAPSCREEN">屏幕截图</S>
+			<S ID="BTN_CAPSCREEN_TIP">屏幕截图</S>
+			<S ID="MSG_RESTORE_DEFAULT_CAPSCR">是否将现有屏幕截图快捷键设置恢复默认？</S>
+		</WND_HALLSETTING>
+		
+		<WND_NOGUILDTIP>
+			<S ID="TITLE">YY游戏大厅</S>
+			<S ID="TXT_NONE_GUILD">您尚未加入该游戏的公会群，您可以进行如下操作：</S>
+			<S ID="BTN_CREATE">创建新公会群</S>
+			<S ID="BTN_FIND">查找公会群</S>
+		</WND_NOGUILDTIP>
+		
+		<WND_PROMPTGUILD>
+			<S ID="BTN_OK">是</S>
+			<S ID="BTN_CANCEL">否</S>
+			<S ID="TXT_ENTER_GUILD">正在进入公会群，  秒后自动打开</S>
+			<S ID="TXT_SETTING">"大厅设置中可进行调整</S>
+		</WND_PROMPTGUILD>
+		
+		<WND_WENWEB>
+			<S ID="MSG_TOO_MANY_OPEN_WENWEN">不能同时打开太多的问问讨论组！</S>
+		</WND_WENWEB>
+		
+		<WND_GAMETOOL>
+			<S ID="BTN_CLOSE_TIP">隐藏/关闭</S>
+			<S ID="BTN_REFRESH_TIP">刷新</S>
+			<S ID="BTN_FEEDBACK_TIP">对工具内容有异议，需勘误，请告诉我！</S>
+			<S ID="FEEDBACK_WND_TITLE_FORMAT">意见反馈 - %s</S>
+			<S ID="FEEDBACK_WND_TITLE">意见反馈</S>
+			<S ID="GAMETOOL_FEEDBACK_MENU">我要提需求</S>
+			<S ID="TITLE_FORMAT"><![CDATA[多玩-%s-%s]]></S>
+			<S ID="ACCEL_TIP_FORMAT"><![CDATA[使用快捷键%s可以开启辅助工具]]></S>
+			<S ID="DDT_RULE_TOOLNAME">屏距工具</S>
+			<S ID="GUIDE_TIP">玩游戏，可以有工具了！</S>
+			<S ID="GUIDE_TOOLNEW">新增了【%s】辅助工具，试用一下？</S>
+			<S ID="OS_NOT_SUPPORT">此功能暂不支持你所用的操作系统，请等待新版本推出。。。</S>
+		</WND_GAMETOOL>
+		<WND_REALNAME>
+			<S ID="TITLE">游戏实名认证</S>
+			<S ID="REMAIN_TIP">您还有%d次认证提示机会</S>
+			<S ID="LASTTIP">按国家政策，实名注册后才可进游戏</S>
+			<S ID="EXITTIP">您未提交游戏实名认证，将退出游戏，请及时补充游戏实名认证信息。</S>
+		</WND_REALNAME>
+		<WND_RAIDERS>		
+			<S ID="WNDTITLE">辅助攻略</S>
+			<S ID="GUIDETIP_TEXT">在此场景下有%d条辅助攻略供您参考。</S>
+			<S ID="GUIDETIP_BTN_OPEN">打开看看>></S>
+			<S ID="GUIDETIP_BTN_SETTING">设置</S>
+		</WND_RAIDERS>
+
+		<WND_GAMETIMER>
+			<S ID="ADD_TITLE">添加闹钟</S>
+			<S ID="UPDATE_TITLE">编辑闹钟</S>
+			<S ID="MODIFY_TITLE">   修改游戏/服务器</S>
+			<S ID="WARNING_TITLE">提醒</S>
+			<S ID="MSG_INVALID_DATETIME">时间已过期</S>
+			<S ID="MSG_INVALID_ADD">您添加的闹钟已经到达上限，不能再添加</S>
+			<S ID="MSG_DELETE_TIMER">您是否删除该闹钟?</S>
+			<S ID="MSG_DELETE_SUCCEED">删除闹钟成功!</S>
+			<S ID="MSG_DELETE_FAILED">删除闹钟失败!</S>
+			<S ID="MSG_ADD_SUCCEED">添加闹钟成功!</S>
+			<S ID="MSG_ADD_FAILED">添加闹钟失败!</S>
+			<S ID="MSG_MODIFY_SUCCEED">修改闹钟成功!</S>
+			<S ID="MSG_MODIFY_FAILED">修改闹钟失败!</S>
+			<S ID="BTN_GAME_MODIFY">修改</S>
+			<S ID="BTN_CANCEL">取消</S>
+			<S ID="TXT_GAME_ADD">游戏:</S>
+			<S ID="TXT_DATETIME">时间:</S>
+			<S ID="TXT_REMARK">备注:</S>
+			<S ID="TXT_GMAE_MODIFY">游 戏:</S>
+			<S ID="TXT_SERVER">服务器:</S>
+			<S ID="CHECK_EVERYDAY">每天</S>
+			<S ID="CHECK_PROMPTTONE">提示音</S>
+			<S ID="CHECK_EVERYDAY_TIP">每天</S>
+			<S ID="CHECK_PROMPTTONE_TIP">提示音</S>
+			<S ID="EDIT_REMARK_TIP">输入备忘信息</S>
+			<S ID="TIMER_LOADING">加载中. . .</S>
+			<S ID="TIMER_TITLE">我的闹钟</S>
+			<S ID="TIMER_EMPTYTIP1">暂无闹钟</S>
+			<S ID="TIMER_EMPTYTIP2">快为你的任务添加定时提醒吧</S>
+		</WND_GAMETIMER>
+		
+		<S ID="IDS_WND_FEEDBACK_TITLE">意见反馈</S>
+		<S ID="IDS_WND_GAMENOTIFY_TITLE">游戏公告</S>
+		<S ID="IDS_WND_HALLMSG_TITLE">大厅消息</S>
+		<S ID="IDS_WND_HALLPOPMSG_TITLE">YY游戏大厅</S>
+		<S ID="IDS_WND_GAMETIMER_TITLE">闹钟</S>
+		<S ID="IDS_WND_INFORMATION_TITLE">精准资讯</S>
+		<S ID="IDS_WND_NOTIFYDETAIL_TITLE">公告详情</S>
+		<S ID="IDS_WND_WEB_BTN_REFRESH_TIP">刷新信息列表</S>
+		<S ID="IDS_WND_BTN_MIN_TIP">最小化</S>
+		<S ID="IDS_WND_BTN_MAX_TIP">最大化</S>
+		<S ID="IDS_WND_BTN_RESTORE_TIP">恢复</S>
+		<S ID="IDS_DLG_CHECKTIP_BTN_OK">确定</S>
+		<S ID="IDS_WND_GAMEMGR_FILTER_GAME_TANTANTANG">弹弹堂</S>
+		<S ID="IDS_TOOL_TANTANTANG_TXT_ME">我</S>
+		<S ID="IDS_TOOL_TANTANTANG_TXT_TARGET">目标</S>
+		<S ID="IDS_WND_JACKET_TITLE">弹弹堂</S>
+		<S ID="IDS_WND_WENWEN_TITLE_FORMAT">问问 - %s</S>
+		<S ID="IDS_WND_SUBACCOUNT_GUIDE_TITLE">如何使用小号</S>
+		<S ID="IDS_WND_TRUSTSUBACCOUNT_GUIDE_TITLE">如何使用托管</S>
+		<ERR>
+			<S ID="CONNECT_TIMEOUT">连接服务器超时，请稍候重试。</S>
+			<S ID="ACCOUNT_EXIST">您已经添加过该小号。</S>
+		</ERR>
+		<YTALK>
+			<S ID="WND_CREATE_TITLE">发话题</S>
+			<S ID="WND_VIEW_TITLE">悠聊话题</S>
+			<S ID="WND_CUSTOMIZE_TITLE">悠聊定制</S>
+			<S ID="WND_INVITE_TITLE">邀请码</S>
+			<S ID="WND_GUIDE_TITLE">悠聊引导</S>
+			<S ID="WND_POP_TITLE">悠聊</S>
+			<S ID="MENU_DELETE_EMOTE">删除表情</S>
+			<S ID="BTN_ADD_EMOTE">添加表情</S>
+			<S ID="BTN_PRE_PAGE">上一页</S>
+			<S ID="BTN_NEXT_PAGE">下一页</S>
+		</YTALK>
+		<WND_GUESTMODE>
+			<S ID="TITLE">游客模式</S>
+			<S ID="TEXT_LINE1">您使用的是游客账号，游戏进度会很快被系统清除，请转为</S>
+			<S ID="TEXT_LINE2">正式账号。</S>
+			<S ID="TEXT_PAY_LINE1">游客账号无法进行充值操作，请先转为正式账号。</S>
+			<S ID="TEXT_PAY_LINE2">正式账号将保存游戏进度。</S>
+		</WND_GUESTMODE>
+		<WND_EXITREMIND_WEB>
+			<S ID="TITLE">温馨提示</S>
+			<S ID="BTN_CHECK">不再提醒</S>
+			<S ID="BTN_EXIT">退出游戏</S>
+		</WND_EXITREMIND_WEB>
+	</Strings>
+	<Fonts>
+		<F ID="DEFAULT_FONT" Face="宋体" Size="-12" Bold="0" Underline="0" Italic="0" StrikeOut="0" CharSet="GB2312"/>
+		<F ID="DEFAULT_BOLD_FONT" Face="宋体" Size="-12" Bold="1" CharSet="GB2312"/>
+		<F ID="DEFAULT_BTN_FONT" Face="宋体" Size="12" Underline="1" CharSet="GB2312"/>
+		<F ID="FONT_12B" Face="宋体" Size="12" Bold="1"/>
+		<F ID="FONT_14" Face="宋体" Size="14" Bold="0"/>
+		<F ID="FONT_11B" Face="Arial" Size="-11" Bold="1" CharSet="GB2312"/>
+	</Fonts>
+	<Bitmaps BmpDir="yygame_files">
+		<B ID="BitmapId" Src="bmp_file_name" ResId="12"/>
+		<B ID="BitmapId" Src="bmp_file_name" ResId="12"/>
+	</Bitmaps>
+</YYGameRes>

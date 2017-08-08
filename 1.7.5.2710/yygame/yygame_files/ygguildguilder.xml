@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Guide>
+	<Frame objectName="createGroupFrame">
+		<Widget objectName="gameCode" direction="left" offset="-392,6" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_create1.png"/>
+		<Widget objectName="groupnameedit" direction="left" offset="-392,60" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_create5.png"/>
+		<Widget objectName="groupexplaintextedit" direction="right" offset="472,130" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_create3.png"/>
+		<Widget objectName="createGroupButton" direction="right" offset="472,270" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_create4.png"/>
+	</Frame>
+	<Frame objectName="recommandFindPage">
+		<Widget objectName="exactfindButton" direction="right" offset="524,-16" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_newuser1.png"/>
+		<Widget objectName="gameServerView" direction="left" offset="-392,-16" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_newuser2.png"/>
+		<Widget objectName="recommandguildslist" direction="left" offset="-392,25" promptFrame="75,89,185,20" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_newuser3.png"/>
+		<Widget objectName="recommandguildslist" direction="left" offset="-392,47" promptFrame="77,122,86,18" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_newuser4.png"/>
+		<Widget objectName="recommandguildslist" direction="left" offset="-392,47" promptFrame="213,118,40,20" imgBg=":/theme/group/yygame/guildguider_bg_left.png" imgInfo=":/theme/group/yygame/guildguider_newuser5.png"/>
+	</Frame>
+	<Frame objectName="exactFindPage">
+		<Widget objectName="recommandfindButton" direction="right" offset="524,-16" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_find1.png"/>
+		<Widget objectName="EditKeyID" direction="right" offset="524,65" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_find2.png"/>
+		<Widget objectName="findButton" direction="right" offset="524,230" imgBg=":/theme/group/yygame/guildguider_bg_right.png" imgInfo=":/theme/group/yygame/guildguider_find3.png"/>
+	</Frame>	
+</Guide>
+
+<!--
+objectName 对应需要提示的对象名称，需要和代码或XML对象名一致
+direction  提示相对对话框的方向
+offset	   提示相对对话框左上的偏移
+promptFrame 提示红框相对对话框的位置，优先使用这个属性，如果没有，直接通过objectName获取位置
+imgBg	   背景图片路径（方向）
+imgInfo	   背景图片路径（信息）
+-->

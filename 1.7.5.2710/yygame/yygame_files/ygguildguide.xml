@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<Guide>
+	<Frame objectName="guildGroupFrame" slideEffect="false">
+		<Widget objectName="recruitButton"  arrowType="DownArrow" arrowOffset="15" tip="人气不给力？点这里试试吧" />
+		<Widget objectName="playgameButton"  arrowType="DownArrow" arrowOffset="15" tip="游戏一键搞定" />
+		<Widget objectName="channelButton"  arrowType="DownArrow" arrowOffset="15"  tip="频道一键搞定" />
+		<Widget objectName="activityButton" alignment="AlignRight" arrowType="DownArrow" arrowOffset="10"  tip="组织团体活动好帮手" />
+		<Widget objectName="guideButton" alignment="AlignRight" arrowType="UpArrow" arrowOffset="10"  tip="公会群遇到难题？点这里试试吧" />
+	</Frame >
+	<Frame objectName="guildUserInfoFrame" slideEffect="false">
+		<Widget objectName="hallLevelLabel"  arrowType="DownArrow" arrowOffset="15" tip="玩游戏就能提升等级哦" />
+		<Widget objectName="yuanbaoview"  arrowType="DownArrow" arrowOffset="15" tip="还没有元宝？赶快加入公会群领返点吧" />
+	</Frame >
+</Guide>
+
+<!--
+	alignment: 可选值，AlignLeft, AlignRight， 默认为AlignLeft
+	arrowType: 可选值，DownArrow, UpArrow， 默认为DownArrow
+	arrowOffset：alignment的值AlignLeft时，为箭头距离左边的距离；alignment的值AlignRight时，为箭头距离右边的距离
+	xOffset：对于不是控件的提示，可以选择一个跟他恒定距离的控件为基准，利用这个偏移来显示
+	yOffset：
+	clickedToNextTip: true,false, 默认true
+-->

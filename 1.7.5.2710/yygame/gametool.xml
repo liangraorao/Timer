@@ -1,0 +1,10 @@
+<root>
+<data gameId="cysg" gameName="街机三国" count="6">
+<item toolId="33" toolName="街机三国答题器"  toolUrl="http://web.duowan.com/yygame/cysg/dtq/index.html"  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="428"  wndHeight="226"  toolSeq="0"  statCode="FZTOOL_CYSG_DTQ"  userCount="0"  status="1" />
+<item toolId="36" toolName="战魂大全"  toolUrl="http://web.duowan.com/yygame/cysg/zhdq/index.html"  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="540"  wndHeight="377"  toolSeq="1"  statCode="FZTOOL_JJSG_ZHDQ"  userCount="0"  status="1" />
+<item toolId="37" toolName="宝石大全"  toolUrl="http://web.duowan.com/yygame/cysg/bsdq/index.html"  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="540"  wndHeight="546"  toolSeq="2"  statCode="FZTOOL_JJSG_BSDQ"  userCount="0"  status="1" />
+<item toolId="38" toolName="珍宝阁材料大全"  toolUrl="http://web.duowan.com/yygame/cysg/cldq/index.html"  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="540"  wndHeight="410"  toolSeq="3"  statCode="FZTOOL_JJSG_ZBGCL"  userCount="0"  status="1" />
+<item toolId="99999" toolName="游戏礼包"  toolUrl="yy://tqzx-[webgame=cysg&serverId=${serverId}&yyuid=${yyuid}] "  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="0"  wndHeight="0"  toolSeq="0"  statCode="null"  userCount="0"  status="0" />
+<item toolId="99998" toolName="会员特权"  toolUrl="http://vip.yy.com/vip/game/?pop=CYSG"  icon="http://notice.lobby.duowan.com/img/tool/default_icon.jpg"  wndWidth="0"  wndHeight="0"  toolSeq="0"  statCode="null"  userCount="0"  status="0" />
+</data>
+</root>

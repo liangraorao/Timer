@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+ * Name : 多玩-傲视精准资讯html
+ * By : Zhaoxue 2010-03-01
+ */
+
+body{background:#000;}
+ul,div,h3,p,li,dd,dt,dl{font-size:12px;padding:0;margin:0;}
+li{list-style-type:none;}
+
+/**/
+.page{width:280px;padding-right:20px;height:160px;position:absolute;left:50%;top:50%;margin:-97px 0 0 -165px;overflow-y:auto;overflow-x:hidden;
+scrollbar-face-color:#4e4e4e; scrollbar-3dlight-color:#34373c;scrollbar-base-color:#34373c;scrollbar-arrow-color:#0a0d14;scrollbar-shadow-color:#34373c;scrollbar-darkshadow-color :#34373c;}
+.mhd{padding-bottom:5px;color:#ddd}
+.mhd h3{background:url(t-headbg.gif) no-repeat center right;}
+.mbd{line-height:1.6em;color:#ddd;padding-top:5px;}
+.mbd dt{color:#999}
+dt,dd{display:inline;}
+/**/

@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="claxes.xsl"?>
+<?xml-stylesheet type="text/xsl" href="custom.xsl"?>
+<cx:claxes xmlns:cx="http://www.classtyle.com/cx" version="0.0.1">
+	<cx:config>
+		<cx:title>Claxes</cx:title>
+		<cx:name>Claxes</cx:name>
+		<cx:keywords>Claxes</cx:keywords>
+		<cx:description>Claxes</cx:description>
+	</cx:config>
+	<cx:page>
+		<cx:body>
+			<cx:section>
+				<cx:part id="part_1" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>管亥</from>
+								<equipment>赤铜剑</equipment>
+								<quality>白色</quality>
+								<type>武器</type>
+								<chance>必得</chance>
+							</item>
+							<item>
+								<from>邓茂</from>
+								<equipment>赤铜锁子甲</equipment>
+								<quality>白色</quality>
+								<type>铠甲</type>
+								<chance>必得</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>乌金剑</equipment>
+								<quality>白色</quality>
+								<type>武器</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>张梁：打败即可招募。所有玩家皆可使用的第一个带“全面出击”的战法将，发动战法时可攻击所有敌方部队，前期过图的强力武将。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_2" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>杨奉</from>
+								<equipment>素银锁子甲</equipment>
+								<quality>白色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张济</from>
+								<equipment>赤霞剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>貂蝉</from>
+								<equipment>纯钩剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>董卓军团</from>
+								<equipment>方天画戟</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>大</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>赤霞剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>徐荣：打败即可招募。强力机械将，装备武器即可提供可观的输出，前期过图很好用。</p>
+							<p>华雄：打败即可招募。带“密集阵型”的战法将，且为盾兵，作肉盾很不错。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_4" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>公孙康</from>
+								<equipment>银蟒枪</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>公孙恭</from>
+								<equipment>太极剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>公孙瓒军团</from>
+								<equipment>八宝驼龙铠</equipment>
+								<quality>蓝色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>乌云踏雪</equipment>
+								<quality>蓝色</quality>
+								<type>战马</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>公孙瓒：打败即可招募。前期强力战法将之一，其技能“长驱直入”可攻击一横排的敌方部队，如没招募张梁，则推荐用此武将过图。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_3" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>赵范</from>
+								<equipment>无影弓</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>胡车儿</from>
+								<equipment>双龙铠</equipment>
+								<quality>蓝色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>管辂</from>
+								<equipment>万石弓</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>小势力军团</from>
+								<equipment>银丝软甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>锦缎狡兔披风</equipment>
+								<quality>蓝色</quality>
+								<type>披风</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>蔡琰：打败即可招募。第一个鼓舞部队，每回合有几率使己方其中一个战法将满士气，使其可发动战法，前期过图必备武将。</p>
+							<p>华佗：打败即可招募。所有武将中唯一一个具有治疗功能的部队，实用性极强。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_5" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>杨丑</from>
+								<equipment>鬼头刀</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>杨任</from>
+								<equipment>雁翎锁子甲</equipment>
+								<quality>蓝色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张鲁军团</from>
+								<equipment>虎纹甲</equipment>
+								<quality>蓝色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>犀牛宝甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_6" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>杨弘</from>
+								<equipment>龟背骆绒甲</equipment>
+								<quality>蓝色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>俞涉</from>
+								<equipment>青龙偃月刀</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁耀</from>
+								<equipment>雀舌枪</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁术军团</from>
+								<equipment>犀牛宝甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>吴子</equipment>
+								<quality>绿色</quality>
+								<type>策书</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>袁术：打败即可招募。俗称“乌龟车”的强力肉盾型部队，过图实用性很高，建议招募。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_7" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>张英</from>
+								<equipment>雌雄双股剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>周昕</from>
+								<equipment>兽角点金枪</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>笮融</from>
+								<equipment>狮子甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>虞翻</from>
+								<equipment>三皇剑</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>严白虎军团</from>
+								<equipment>天空之弓</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>铜爵</equipment>
+								<quality>黄色</quality>
+								<type>战马</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_8" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>王威</from>
+								<equipment>开岭砍山刀</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>吴巨</from>
+								<equipment>流金弓</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张允</from>
+								<equipment>狮子甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>蒯良</from>
+								<equipment>月落红云甲</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>刘表军团</from>
+								<equipment>龙鳞紫金刀</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>天空之弓</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>伊籍：打败即可招募。第一个战鼓部队，可使自方部队的战法将每回合增加35士气，可招募进行训练，为组成战法流做准备。</p>
+							<p>刘表：打败即可招募。第二个战鼓部队，可使自方部队的战法将每回合增加35士气，可招募进行训练，为组成战法流做准备。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_9" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>吴兰</from>
+								<equipment>金蘸斧</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>许靖</from>
+								<equipment>紫烟剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>杨怀</from>
+								<equipment>天狼枪</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张任</from>
+								<equipment>犀牛宝甲</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张松</from>
+								<equipment>月落红云甲</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>刘璋军团</from>
+								<equipment>月落红云甲</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>月落红云甲</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>李恢：打败即可招募。可攻击敌方一横排部队的机械将，欲玩机械流的玩家可进行招募。</p>
+							<p>严颜：打败即可招募。徐荣的升级版，喜欢机械将的玩家可招募并训练，替代前期的徐荣。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_10" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>梁兴</from>
+								<equipment>七星剑</equipment>
+								<quality>蓝色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张横</from>
+								<equipment>落凤弓</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>马铁</from>
+								<equipment>狮子甲</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>马玩</from>
+								<equipment>冷月寒霜宝刀</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>马腾军团</from>
+								<equipment>金雀开山斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>金丝豹斑披风</equipment>
+								<quality>黄色</quality>
+								<type>披风</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_11" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>带来洞主</from>
+								<equipment>青龙甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>董荼那</from>
+								<equipment>天河寒江甲</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>朵思大王</from>
+								<equipment>龟背骆龙枪</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>金环三节</from>
+								<equipment>二龙宣化斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>孟获军团</from>
+								<equipment>麒麟双枪</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>百战奇略</equipment>
+								<quality>黄色</quality>
+								<type>策书</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>祝融：打败即可招募。带有技能“打草惊蛇”的战法将，可攻击敌方全体部队并有几率晕眩，具有一定的使用价值。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_12" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>辛昆</from>
+								<equipment>金丝软藤枪</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>辛评</from>
+								<equipment>紫电青霜剑</equipment>
+								<quality>绿色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁谭</from>
+								<equipment>青龙甲</equipment>
+								<quality>绿色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁熙</from>
+								<equipment>天河寒江甲</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁尚</from>
+								<equipment>狻猊铠</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>朱灵</from>
+								<equipment>大鹏飞羽</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>沮授</from>
+								<equipment>丈八蛇矛</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>审配</from>
+								<equipment>大叶龙鳞甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>袁绍军团</from>
+								<equipment>九霄神怒</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>黄玉君王兵符</equipment>
+								<quality>黄色</quality>
+								<type>兵符</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>文丑：打败即可招募。具有战法“狂怒之师”，兵越少威力越大，强力单秒将。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_13" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>曹性</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>郝萌</from>
+								<equipment>狻猊铠</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>侯成</from>
+								<equipment>龙鳞紫金刀</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>宋宪</from>
+								<equipment>大叶龙鳞甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>魏续</from>
+								<equipment>二龙宣化斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>高顺</from>
+								<equipment>玄武铠</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>藏霸</from>
+								<equipment>太合剑</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>吕布军团</from>
+								<equipment>大夏龙雀</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>落魂追影</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>张辽：打败即可招募。严颜的升级版，物理攻击更强悍，是中后期喜欢玩机械将的玩家必招的武将。</p>
+							<p>貂蝉：打败即可招募。蔡琰的升级版，具有更高的血量，战法流必备武将，可招募替代蔡琰。</p>
+							<p>吕布：打败即可招募。独有战法“三国无双”，具有所有武将中最高的120勇，为单体战法输出的强力武将，混合流必备。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_17" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>洪仁轩</from>
+								<equipment>丈八蛇矛</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>杨秀清</from>
+								<equipment>大叶龙鳞甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>冯云山</from>
+								<equipment>狻猊铠</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>林风祥</from>
+								<equipment>乌线追风甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>韦昌辉</from>
+								<equipment>三昧纯阳铠</equipment>
+								<quality>紫色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>太平军团</from>
+								<equipment>三昧纯阳铠</equipment>
+								<quality>紫色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>狻猊铠</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>石达开：打败有一定概率可以招募。其战法“起义攻击”带有吸血能力，且可以连续发动。但需要高级马和高级武器同时装备才能发挥出威力。</p>
+							<p>洪秀全：打败有一定概率可以招募。血量最高的战鼓，而且属性全面，为战法流必招的武将。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_18" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>洪承畴</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>僧格林沁</from>
+								<equipment>二龙宣化斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>鳌拜</from>
+								<equipment>大叶龙鳞甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>施琅</from>
+								<equipment>秋风落叶扫</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>多尔衮</from>
+								<equipment>雪霁</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>大清军团</from>
+								<equipment>雪霁</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>追风</equipment>
+								<quality>黄色</quality>
+								<type>战马</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>曾国藩：打败有一定概率可以招募。格挡能力超强之武将，过图利器，抵御机械部队能力超群，推荐招募。</p>
+							<p>努尔哈赤：打败有一定概率可以招募。属性极强且具备连续战法“马踏千里”，可攻击敌军一横排部队，且擅长暴击。若配备高等级马和武器，威力极强。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_16" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>孙策</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>吕蒙</from>
+								<equipment>金雀开山斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>周瑜</from>
+								<equipment>玄武铠</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>孙权</from>
+								<equipment>太合剑</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>吴国军团</from>
+								<equipment>大夏龙雀</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>黄玉霸王兵符</equipment>
+								<quality>黄色</quality>
+								<type>兵符</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_14" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>郭嘉</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>夏侯惇</from>
+								<equipment>玄武铠</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>曹操</from>
+								<equipment>太合剑</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>司马懿</from>
+								<equipment>金雀开山斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>魏国军团</from>
+								<equipment>大夏龙雀</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>黄玉霸王兵符</equipment>
+								<quality>黄色</quality>
+								<type>兵符</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_15" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+						<item>
+								<from>关羽</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>诸葛亮</from>
+								<equipment>玄武铠</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>赵云</from>
+								<equipment>金雀开山斧</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>刘备</from>
+								<equipment>太合剑</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>蜀国军团</from>
+								<equipment>大夏龙雀</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>黄玉霸王兵符</equipment>
+								<quality>黄色</quality>
+								<type>兵符</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_19" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>刘宗敏</from>
+								<equipment>九霄神怒</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>王嘉胤</from>
+								<equipment>狻猊铠</equipment>
+								<quality>黄色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>高迎祥</from>
+								<equipment>乌线追风甲</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>张献忠</from>
+								<equipment>三昧纯阳铠</equipment>
+								<quality>紫色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>闯王军团</from>
+								<equipment>三昧纯阳铠</equipment>
+								<quality>紫色</quality>
+								<type>铠甲</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>玄武铠</equipment>
+								<quality>红色</quality>
+								<type>铠甲</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>李自成：打败有一定概率可以招募。强力单体战法输出武将，招牌技能“横冲直撞”能连续发动，击中有机会晕眩。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_20" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>冯胜</from>
+								<equipment>落影追魂</equipment>
+								<quality>黄色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>李善长</from>
+								<equipment>麒麟双枪</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>汤和</from>
+								<equipment>秋风落叶扫</equipment>
+								<quality>红色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>朱棣</from>
+								<equipment>雪霁</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>大明军团</from>
+								<equipment>雪霁</equipment>
+								<quality>紫色</quality>
+								<type>武器</type>
+								<chance>小</chance>
+							</item>
+							<item>
+								<from>过图奖励</from>
+								<equipment>孙膑兵法</equipment>
+								<quality>红色</quality>
+								<type>策书</type>
+								<chance>必得</chance>
+							</item>
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>刘伯温：打败有一定概率可以招募。可攻击一横排的水策士，伤害高且命中率不低，喜欢策士的玩家绝对不能错过。</p>
+							<p>戚继光：打败有一定概率可以招募。兵种为炮兵，属于机械单位，且擅长暴击，攻击一竖排敌方部队，配合高等级武器可造成大量的伤害，机械流必备武将。</p>
+							<p>朱元璋：打败有一定概率可以招募。其招牌技能连续战法“影子追击”，可造成极高的单体战法伤害，且有机会连续攻击2次，但同时需要高等级武器和马的支持。</p>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_21" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>暂无</from>
+								<equipment>暂无</equipment>
+								<quality>暂无</quality>
+								<type>暂无</type>
+								<chance>暂无</chance>
+							</item>							
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无（金辽）</p>							
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_22" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>暂无</from>
+								<equipment>暂无</equipment>
+								<quality>暂无</quality>
+								<type>暂无</type>
+								<chance>暂无</chance>
+							</item>							
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无(蒙古)</p>							
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_23" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>暂无</from>
+								<equipment>暂无</equipment>
+								<quality>暂无</quality>
+								<type>暂无</type>
+								<chance>暂无</chance>
+							</item>							
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无（水浒）</p>							
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_24" >
+					<cx:mod class="mod1" id="cxTest1" type="full">
+						<cx:name>装备掉落</cx:name>
+						<cx:element type="ullist">
+							<item>
+								<from>暂无</from>
+								<equipment>暂无</equipment>
+								<quality>暂无</quality>
+								<type>暂无</type>
+								<chance>暂无</chance>
+							</item>							
+						</cx:element>
+					</cx:mod>
+					<cx:mod class="mod2" id="cxTest2" type="full">
+						<cx:name>有价值武将</cx:name>
+						<cx:element type="cxHtml">
+							<p>暂无（大宋）</p>							
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+			</cx:section>
+		</cx:body>
+		<cx:footer/>
+	</cx:page>
+</cx:claxes>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenes date="20110815">
+<events>
+ 	 <event id="1" name="CreateNewRole"		disc="创建角色"/>
+	 <event id="2" name="RetriveRoleName"  	disc="获取已有角色名"/>
+	 <event id="3" name="CreateLegion" 	disc="创建军团"/>
+	 <event id="4" name="RetriveLegionName"  		disc="获取已有军团名"/>
+	 <event id="5" name="GetRoleNameImg"		disc="获取玩家角色名称截图"/>
+	 <event id="6" name="GetRolePartyNameImg"  disc="获取玩家帮派名称截图"/>
+</events>
+
+<rules>
+<!-- 取1、2、4、8、16等值，便于程序用与操作 -->
+	<rule id="1" name="url"/>
+	<rule id="2" name="post"/>
+	<rule id="4" name="response"/>
+	<rule id="8" name="pic"/>
+	<rule id="16" name="file"/>
+</rules>
+
+<games>
+<!-- adapter 属性 (数据来源组件): 
+    1  http组件（从http获取数据）
+	2  img截取组件（获取游戏截图数据）
+ -->
+ <!-- deco 属性 原始数据解码方式
+	0 不需要解码
+	1 URL Decode
+	2 delfate
+	3 gzip
+ -->
+	<game code="as" name="傲视天地" adapter="1" url="http://{[A-za-z0-9]+}\.as.game.yy.com">
+		<action event_id="2" rule_id="17" result="file">
+			<url key="server!getPlayerInfoByUserId" case="0" regex="" deco="0"/>
+			<file key="" case="0" regex="&lt;playername&gt;{[^ .]+}&lt;/playername&gt;" deco="2"/>
+		</action>
+		<action event_id="1" rule_id="19" result="post">
+			<url key="createRole!setPlayerName.action" case="0" regex="" deco="0"/>
+			<post key="" case="" regex="playerName={[^ .]+}" deco="1"/>
+			<file key="&lt;state&gt;1&lt;/state&gt;" case="" regex="" deco="2"/>
+		</action>
+	</game>
+	<game code="ddt" name="弹弹堂" adapter="1" url="http://{[A-za-z0-9]+}\.ddt.{[duowan|game.yy]+}.com">
+		<action event_id="1" rule_id="5" result="url"> <!-- 创建角色-->
+			<url key="" case="0" regex="nicknamecheck.ashx\?rnd=.*&amp;NickName={[^ .]+}" deco="1"/> 
+			<response key="value=&quot;true&quot;" case="0" regex="" deco="0"/>
+		</action>
+		<action event_id="2" rule_id="5" result="response"> <!-- 获取已有角色 -->
+			<url key="LoginSelectList.ashx?" case="0" regex="" deco="0"/>
+			<response key="" case="" regex="NickName=&quot;{[^ .]+}&quot;" deco="0"/>
+		</action>
+	</game>
+	<game code="yxyz" name="英雄远征" adapter="2" url="http://s33.yxyz.game.yy.com">
+		<action event_id="5" rule_id="8">
+		<!-- pic key字符格式说明
+			 1. 以游戏画面左上角顶点为原点，从左向右为X坐标轴正向，从上向下为Y轴正向。
+             2. 截图区域为长方形。
+			 3.
+				X表示截图区域左上角顶点的X轴值。
+				Y表示截图区域左上角顶点的Y轴值。
+				Width表示截图区域的宽度
+				Height表示截图区域的高度
+				Red,Green,Blue 表示截图区域内文字的颜色
+				Align表示截图区域内文字的对齐方式
+				     0 ---- 居中对齐
+					 1 ---- 左对齐
+					 2 ---- 右对齐
+		-->
+			<pic key="X=105&amp;Y=18&amp;Width=88&amp;Height=24&amp;Red=255&amp;Green=255&amp;Blue=255&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="mszj" name="魔神战纪" adapter="2" url="http://mszj.duowan.com">
+		<action event_id="5" rule_id="8">
+			<pic key="X=107&amp;Y=2&amp;Width=96&amp;Height=24&amp;Red=255&amp;Green=255&amp;Blue=255&amp;Align=1" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="smzt" name="神魔遮天" adapter="2" url="http://s11.smzt.game.yy.com">
+		<action event_id="5" rule_id="8">
+			<pic key="X=87&amp;Y=6&amp;Width=112&amp;Height=24&amp;Red=237&amp;Green=219&amp;Blue=96&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="mhxx" name="梦幻修仙" adapter="2" url="http://s30.mhxx.game.yy.com">
+		<action event_id="5" rule_id="8">
+			<pic key="X=92&amp;Y=15&amp;Width=96&amp;Height=24&amp;Red=225&amp;Green=202&amp;Blue=0&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="jtxm" name="九天仙梦" adapter="2" url="http://s6.jtxm.game.yy.com">
+		<action event_id="5" rule_id="8">
+			<pic key="X=80&amp;Y=5&amp;Width=112&amp;Height=24&amp;Red=255&amp;Green=246&amp;Blue=140&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="hhsh" name="洪荒神话" adapter="2" url="http://hhsh.duowan.com/s/xf/index.html">
+		<action event_id="5" rule_id="8">
+			<pic key="X=117&amp;Y=10&amp;Width=96&amp;Height=16&amp;Red=232&amp;Green=231&amp;Blue=200&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="sxd" name="神仙道" adapter="2" url="http://s7.sxd.game.yy.com">
+		<action event_id="5" rule_id="8"><!-- 此游戏的flash窗口被拉伸后会出现黑边，游戏画面没填满整个窗口-->
+			<pic key="X=99&amp;Y=11&amp;Width=96&amp;Height=24&amp;Red=255&amp;Green=255&amp;Blue=255&amp;Align=0" case="0" regex=""/>
+		</action>
+	</game>
+	<game code="mg" name="墨攻" adapter="2" url="http://mg.duowan.com/">
+		<action event_id="5" rule_id="8">
+			<pic key="X=84&amp;Y=29&amp;Width=88&amp;Height=24&amp;Red=229&amp;Green=227&amp;Blue=70&amp;Align=1" case="0" regex=""/>
+		</action>
+	</game>
+</games>
+</scenes>

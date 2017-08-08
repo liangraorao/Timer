@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<tips>
+<!-- pos取值为以下几个值的和ygeLeft = 1, ygeCenter = 2, ygeRight = 4, ygeTop = 0x100, ygeVCenter = 0x200, ygeBottom = 0x400 -->
+	<hall>
+	</hall>
+	<openGame>
+	</openGame>
+	<clearIeCatch>
+		<tip id="btn_clearIeCatch" width="176" height="80" pos="0x404" text="正在努力清理缓存中...，您可以最小化窗口，清理完毕提示窗口会自动关闭。" />
+	</clearIeCatch>
+	<hotkey>
+		<tip id="btn_menu" width="297" height="45" pos="0x104" btnId="40005" btnText="点此重新设置" text="老板键与其他热键冲突了，点击重新设置一下吧" />
+	</hotkey>
+	<_lastTab>
+		<tip id="btn_tabBar" width="176" height="64" left="120" top="80" pos="0x401" btnId="40005" btnText="设置" text="游戏大厅会自动为您打开上次未关闭的游戏标签。" />
+	</_lastTab>
+	<gameTool>
+		<tip id="rightBar_gameTool" width="150" height="50" left="10" top="5" pos="0x414" text="玩游戏，可以有工具了！" />
+	</gameTool>
+	<ytalkTool>
+		<tip id="copy_inviteCode" width="252" height="50" left="486" top="83" pos="0x404" btnId="40005" btnText="点击复制邀请码" btnId2="40006" btnText2="马上启动悠聊" text="您已获得1个悠聊限量内测邀请码！" text1="您已获得" text2="个悠聊限量内测邀请码！">
+	</ytalkTool>
+	<ytalkTool2>
+		<tip id="copy_inviteCodes" width="252" height="50" left="486" top="83" pos="0x404" btnId="40005" btnText="马上邀请您的好友一起悠聊" text="您还有5个邀请码未使用哦，亲！">
+	</ytalkTool2>
+</tips>

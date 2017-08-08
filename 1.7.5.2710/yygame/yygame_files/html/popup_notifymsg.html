@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="zh-CN" http-equiv="Content-Language" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<title>YY</title>
+<meta content="" name="Description" />
+<meta content="" name="Keywords" />
+<meta content="none" name="Robots" />
+<style>
+body{color:#000;background:#fff;font-size:12px;line-height:1.666em}body,input,button{font-family:arial,sans-serif}h1,h2,h3,h4,h5,h6,select,input,button{font-size:100%}body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,img,blockquote{margin:0;padding:0;border:0}input,button,img{margin:0;line-height:normal}q,em{font-style:normal;text-decoration:none}button{line-height:135%;padding:0 .5em;overflow:visible}input,button,button img{vertical-align:middle}
+.vippop{width:273px;height:150px;background:#f7fbfe}
+.vippop h5{line-height:32px;text-align:center;margin:0 auto;width:230px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.vippop .bd{padding:0 20px;height:75px;margin-bottom:5px;overflow:hidden}
+.vippop p{line-height:24px;text-align:left;color:#484441;overflow:hidden;white-space:normal;word-wrap:break-word;}
+.vippop p span{color:#0158a8}
+.vippop p em{color:#a9a9a9;margin:0 2px}
+.vippop a{color:#0158a8;font-family:"宋体";text-decoration:underline}
+.vippop a:hover{color:#f60;}
+.vippop .fl{float:right;width:230px;padding-right:25px}
+.vippop .fl p{float:left;width:80px;padding-top:5px}
+.vippop .fl p input,label{_float:left}
+.vippop .fl label{_margin-top:1px}
+.vippop button{width:80px;height:25px;line-height:2.3em;color:#464646;float:right;text-align:center;border:0;padding:0;margin-left:10px;cursor:pointer;background:url(images/popvipbtn.png) no-repeat}
+.center{margin-right:72px}
+</style>
+</head>
+<body id="pop1">
+<script type="text/javascript">
+var g_msgType = 0;
+function addJsonMsg(str){
+	//测试用的，正式调用的时候客户端传参给str,根据str.msgType动态显示div,
+	//msgType取值
+	//1：充值提醒 
+	//2：推荐加入公会	
+	//3:用户有公会但没对应vip公会，就提示创建。需增加gameCode:"xxx", serverCode:"xxx"参数。
+	//4：用户有公会并也存在对应vip公会，就提示加入vip公会。
+	//5：用户离开vip公会，就提示。
+	//6：用户离开vip公会时，会长收到的提示。
+	//7：用户加入vip公会，但在游戏未加入公会。
+	//var json = '{msgType:"1", gameName:"弹弹堂", guildId:"1", guildName:"凤凰涅槃", gameCode:"xxx", serverCode:"xxx", nickName:"xxx", userId:"xxx", gameGuildName:"xxx"}';
+	var jsonStr = eval('('+str+')'); 
+	g_msgType = jsonStr.msgType;
+	switch(jsonStr.msgType) {
+	case "1":
+		addPayNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName);
+		break;
+	case "2":
+		addRecommendNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName);
+		break;
+	case "3":
+		addCreateVIPGuildNotify(jsonStr.gameGuildName, jsonStr.gameName, jsonStr.nickName, jsonStr.gameCode, jsonStr.serverCode);
+		break;
+	case "4":
+		addJoinVIPGuildNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName);
+		break;
+	case "5":
+		addLeaveVIPGuildNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName);
+		break;
+	case "6":
+		addLeaveVIPGuildAdminNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName, jsonStr.nickName);
+		break;
+	//case "7":
+	//	addExistVIPGuildNotify(jsonStr.guildId, jsonStr.guildName, jsonStr.gameName);
+	//	break;
+	case "31":
+		addGameToolNotify(jsonStr.gameCode, jsonStr.gameName, jsonStr.toolName, jsonStr.toolCount, jsonStr.userCount);
+		break;
+	case "41":
+		addGameTimerNotify(jsonStr.gameName, jsonStr.gameServer, jsonStr.remark, jsonStr.gameCode, jsonStr.serverID);
+		break;
+	}
+	var strAction = "GH_TC_MSG_" + jsonStr.msgType;
+	window.external.reportAction(strAction);
+}
+//addRecommendNotify("s1", "z12345678901234567890", "xxx12345678901234567890");
+function addPayNotify(guildId, guildName, gameName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>好消息！你所在的VIP公会元宝打增</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>你加入的VIP公会<span>"+omitString(guildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em>因有成员充值，获得了更多元宝！</p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<button title='打开VIP公会' onclick='openGuild1("+guildId+")'>打开VIP公会</button>";
+	strHtml += "<button title='查看公会元宝' onclick='viewYB1("+guildId+")'>查看公会元宝</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+function addRecommendNotify(guildId, guildName, gameName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>加VIP公会，找伙伴，享充值返点特权！</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>马上加入人气VIP公会：<span>"+omitString(guildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em><a href='javascript:void(0)' onclick='detailGuild2("+guildId+");'>公会详细</a></p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<p><input name='chkClosePrompt' type='checkbox' value='' onclick='closePrompt();'/><label>不再提醒</label></p>"
+	strHtml += "<button title='加入公会' onclick='askJoinGuild2("+guildId+")'>加入公会</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+	window.onunload = onunload2;
+}
+function addCreateVIPGuildNotify(gameGuildName, gameName, nickName, gameCode, serverCode)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>恭喜！你获得创建VIP公会特权</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>会长<span>"+omitString(nickName, 10)+"</span>，你获得创建<span>"+omitString(gameGuildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em>VIP公会特权，享受更多权利。</p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<button title='创建VIP公会' onclick=\"createGuild3('"+gameCode+"', '"+serverCode+"');\" class='center'>创建VIP公会</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+//addCreateVIPGuildNotify("z12345678901234567890", "xxx12345678901234567890", "nickName", "gameCode", "serverCode");
+function addJoinVIPGuildNotify(guildId, guildName, gameName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>诚邀你加入VIP公会，寻找游戏伙伴！</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>你加入的<span>"+omitString(guildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em>已创建VIP公会，赶快加入吧，大家等着你呢!</p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<button title='加入公会' onclick='askJoinGuild4("+guildId+")' class='center'>加入公会</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+//addLeaveVIPGuildNotify("s1", "z12345678901234567890", "xxx12345678901234567890");
+function addLeaveVIPGuildNotify(guildId, guildName, gameName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>您的VIP公会身份转为“游客”</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>您在游戏内退出了公会，在VIP公会<span>"+omitString(guildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em>中将转为“游客”身份。</p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<button title='知道了' onclick='know5()' class='center'>知道了</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+//addLeaveVIPGuildAdminNotify("s1", "z12345678901234567890", "xxx12345678901234567890", "userNickName");
+function addLeaveVIPGuildAdminNotify(guildId, guildName, gameName, userNickName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>会员身份转为“游客”</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>您的会员<span>"+omitString(userNickName, 10)+"</span>在游戏中退出了公会，将在VIP公会<span>"+omitString(guildName, 10)+"</span><em>("+omitString(gameName, 10)+")</em>中将转为“游客”身份。</p>";
+	strHtml += "</div><div class='fl'>";
+	strHtml += "<p><a href='javascript:void(0)' onclick='remind6("+guildId+");'>提醒设置</a></p>";
+	strHtml += "<button title='查看成员' onclick='viewMember6("+guildId+");'>查看成员</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+function addExistVIPGuildNotify(guildId, vipGuildName, gameName)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>VIP公会通知</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>您加入了【"+gameName+"】的VIP公会【<span><a href='javascript:void(0)' onclick='openGuild("+guildId+")'>"+vipGuildName+"</a></span>】。但并未加入对应的游戏公会，您的身份将是“游客”。</p>";
+	strHtml += "</div><div class='fl' style='width: 250px;margin-left: 155px;'>";
+	//strHtml += "<button title='查看公会资料' onclick='viewGuild("+guildId+", 0 );' style='width:80px;'>查看公会资料</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+
+function addGameToolNotify(gameCode, gameName, toolName, toolCount, userCount)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<h5>" + gameName + "推出辅助工具了</h5>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>"+gameName+"推出了" + toolName;
+	if (toolCount > 1)
+		strHtml += "等" + toolCount + "款";
+	strHtml +="辅助工具，每天有" + userCount + "位用户在使用，马上试试吧！"	
+	strHtml += "</p></div><div class='fl'>";
+	strHtml += "<p><input name='chkClosePrompt' type='checkbox' value='' onclick='closePrompt();'/><label>不再提醒</label></p>"
+	strHtml += "<button title='立即使用' onclick=\"openGameToolList('"+gameCode+"');\">立即使用</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+
+function addGameTimerNotify(gameName, gameServer, remark, gameCode, serverID)
+{
+	var strHtml = "<div class='vippop'>";
+	strHtml += "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;尊敬的玩家:</p>";
+	strHtml += "<div class='bd cs-clear'>";
+	strHtml += "<p>您定的闹钟<span>" + remark + "</span>时间到了，快进入";
+	strHtml += gameName + gameServer+"完成任务吧！"	
+	strHtml += "</p></div><div class='fl'>";
+	strHtml += "<button title='进入游戏' onclick=\"openGame('"+gameCode+"', '"+serverID+"');\" class='center'>进入游戏</button>";
+	strHtml += "</div></div>";
+	document.getElementById('pop1').innerHTML = strHtml;
+}
+
+function viewGuild(guildId, pageId)
+{
+	var strGuildId = guildId+"";
+	var strPageId = pageId + "";
+	window.external.viewGuild( strGuildId , strPageId);
+	var strAction = "GH_TC_VIEWGUILD_" + pageId;
+	window.external.reportAction(strAction);
+}
+function viewYB1(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.viewGuild(strGuildId , "4");
+	window.external.reportAction("GH_TC_VIEWYB_1");
+	window.external.closeWnd();
+}
+function openGuild1(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.openGuild( strGuildId );
+	window.external.reportAction("GH_TC_OPEN_1");
+	window.external.closeWnd();
+}
+function detailGuild2(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.viewGuild( strGuildId , "0");
+	window.external.reportAction("GH_TC_DETAIL_2");
+}
+function askJoinGuild2(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.askJoinGuild(strGuildId);
+	window.external.reportAction("GH_TC_JOIN_2");
+	window.external.closeWnd();
+}
+function createGuild3(gameCode, serverCode)
+{
+	var strGameCode = gameCode+"";
+	var strServerCode = serverCode+"";
+	window.external.createGuild(strGameCode, strServerCode);
+	window.external.reportAction("GH_TC_CREATE_3");
+	window.external.closeWnd();
+}
+function askJoinGuild4(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.askJoinGuild(strGuildId);
+	window.external.reportAction("GH_TC_JOIN_4");
+	window.external.closeWnd();
+}
+function openGameToolList(gameCode)
+{
+	var strGameId = gameCode + "";
+	window.external.openGameToolList(strGameId);
+	//window.external.reportAction("GH_TC_JOIN_4");
+	window.external.closeWnd();
+}
+function know5()
+{
+	window.external.reportAction("GH_TC_IKNOW_5");
+	window.external.closeWnd();
+}
+function viewMember6(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.viewGuild( strGuildId , "1");
+	window.external.reportAction("GH_TC_VIEWMEMBER_6");
+	window.external.closeWnd();
+}
+function remind6(guildId)
+{
+	var strGuildId = guildId+"";
+	window.external.viewGuild( strGuildId , "3");
+	window.external.reportAction("GH_TC_REMIND_6");
+}
+function closePrompt()
+{
+	var strMsgType = g_msgType + "";
+	var strPrompt = document.getElementById("chkClosePrompt").checked + "";
+	window.external.setPrompt(strMsgType, strPrompt);
+}
+function onunload2() 
+{
+	var chk = document.getElementById("chkClosePrompt");
+	if(chk && chk.checked)
+	{
+		var strKey = "GH_TC_NOREMIND_" + g_msgType;
+		window.external.reportAction(strKey);
+	}
+}
+function omitString(str, needLeng){
+	if(str.length > needLeng){
+		return str.substr(0,needLeng) + "...";
+	}
+	return str;
+}
+function openGame(gameCode, serverID)
+{
+	var strGameCode = gameCode+"";
+	var strServerCode = serverID+"";
+	window.external.openGame(strGameCode, strServerCode);
+	window.external.closeWnd();
+}
+</script>
+</body>
+</html>

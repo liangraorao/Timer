@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ddt_claxes.xsl"?>
+<cx:claxes xmlns:cx="http://www.classtyle.com/cx" version="0.0.1">
+	<cx:config>
+		<cx:title>Claxes</cx:title>
+		<cx:name>Claxes</cx:name>
+		<cx:keywords>Claxes</cx:keywords>
+		<cx:description>Claxes</cx:description>
+	</cx:config>
+	<cx:page>
+		<cx:body>
+			<cx:section>
+				<cx:part id="part_1">
+					<cx:mod type="full">
+						<cx:name>副本简析</cx:name>
+						<cx:element type="fubenInfo">
+							<name>啵咕王城</name>
+							<level>简单/普通/困难/英雄</level>
+							<players>2-4人</players>
+							<required>英雄难度建议强9以上的天使之赐，血量6000以上，防御800以上。最后一关带冰。</required>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_2">
+					<cx:mod type="full">
+						<cx:name>副本简析</cx:name>
+						<cx:element type="fubenInfo">
+							<name>黑暗堡垒</name>
+							<level>普通/困难/英雄</level>
+							<players>2-4人</players>
+							<required>英雄难度建议队员35级以上，副手+9以上，装备高角度武器一把以上。</required>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_3">
+					<cx:mod type="full">
+						<cx:name>副本简析</cx:name>
+						<cx:element type="fubenInfo">
+							<name>龙巢之战</name>
+							<level>普通/困难/英雄</level>
+							<players>2-4人</players>
+							<required>无特殊要求。</required>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_4">
+					<cx:mod type="full">
+						<cx:name>副本简析</cx:name>
+						<cx:element type="fubenInfo">
+							<name>魔蚁之巢</name>
+							<level>简单/普通</level>
+							<players>2-4人</players>
+							<required>无特殊要求。</required>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_5">
+					<cx:mod type="full">
+						<cx:name>副本简析</cx:name>
+						<cx:element type="fubenInfo">
+							<name>邪神部落</name>
+							<level>普通/困难/英雄</level>
+							<players>2-4人</players>
+							<required>无特殊要求。</required>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_11">
+					<cx:mod type="full">
+						<cx:name>啵咕王城</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第一关">
+								防御最高血量最多的队员做mt，飞上斜坡等待啵咕小怪聚拢到面前。其他队员再开始攻击。后方队员注意对mt加血。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_12">
+					<cx:mod type="full">
+						<cx:name>啵咕王城</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第二关">
+								攻击巴罗夫队长的弱点——创可贴。弱点位置与队员位置方向相反时可按P跳过节省时间。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_13">
+					<cx:mod type="full">
+						<cx:name>啵咕王城</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第三关">
+								利用高角度打法飞到钥匙所在位置即过关。钥匙数量与队员数量相同。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_14">
+					<cx:mod type="full">
+						<cx:name>啵咕王城</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第四关">
+								击败啵咕国王尼尔鲁奥。如果有队员被冰必须在该回合内解救，否则必死。此boss一次回7000血，打死第一次后会变身为愤怒状态并开启防护盾，此时建议使用高抛或半抛。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_15">
+					<cx:mod type="full">
+						<cx:name>啵咕王城</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第五关">
+								队员尽量集中以便加血，2人一组消灭小炸弹。Boss愤怒状态时用冰攻击其头顶，全程注意互相加血，保持命中就可以过关！
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_21">
+					<cx:mod type="full">
+						<cx:name>黑暗堡垒</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第一关">
+								1.每个玩家带3个“冰”。
+2.开局后，城首像会“睁眼”，破门专家每回合损失2500生命后前进，然后出现三个小兵。
+3.保持初始地形千万不要下去。杀掉破门专家前方的小兵（破门专家是不会被玩家打伤的，如果小兵与它站在一起，可以放心杀小兵，但是破门专家被冰冻后遭到攻击会解除冰冻效果），给破门专家补血，然后冰冻破门专家。
+4. 城首像睁眼以后在破门专家行动之会前进行攻击，需要冰冻破门专家避免被城首像杀掉。
+5. 破门专家的初始位置是不会受到城首像攻击的，城首像攻击过后破门专家才会行动，这时可以放心不用冰冻。
+6. 破门专家每回合会损失2500生命，要注意给它加血。
+7. 破门专家行动的时候，前方如果有小兵，它会和小兵同归于尽。所以在它行动之前，一定清除它前方的小兵。
+8. 本关的流程为：玩家行动→城首像行动→破门专家行动→出现小兵（小兵行动），注意配合。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_22">
+					<cx:mod type="full">
+						<cx:name>黑暗堡垒</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第二关">
+								1.	空陆大作战，从这里开始。由于有空中的敌人，所以高角度武器必不可少，推荐黑白家电，司马，回力标，雷霆等高角度武器。每个玩家带上三个“飞机”。
+2.	开局以后鹰是无敌的，并且会群攻。可以先集中移动到地图中间，或者原地对狼进行攻击，合理的回复生命。
+3.	狼损失一定生命以后，鹰会对随机一个玩家进行标志，这个时候狼会用说话提醒XX玩家即将被吃掉。 被标志的玩家千万不要和其他玩家站在一起，单独用飞机逃跑到角落，离狼越远越好。
+4.	这个时候鹰不再是无敌的，而狼是无敌的，它每回合都要对被它盯上的玩家进行攻击，被盯上的玩家每回合要利用飞机逃跑，离狼越远越好，同时远离同伴。
+5.	被狼盯上的玩家不要自己原地加血，否则会死的很惨，同伴利用高角度来帮助他加血。
+6.	合理利用地形对鹰进行攻击，英雄难度在空中会有旋风来阻挡玩家攻击，要快速的输出，否则旋风会越来越多，难度也随之变大。
+7.	当鹰损失一定生命以后，会恢复无敌状态，这个时候狼不再无敌。可以继续攻击狼。最好离狼远一些，它偶尔也会进行攻击。
+8.	这关的要点是分别在两个BOSS的不同形态进行攻击，被狼盯上的玩家，一定要飞的远一些并且不要和其他玩家站在一起，如果你飞的不够远，狼会跑过来进行攻击，这个伤害是巨大的，基本是秒杀。队友帮助被狼盯上的玩家加血并且抓紧对鹰输出。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_23">
+					<cx:mod type="full">
+						<cx:name>黑暗堡垒</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第三关">
+								1.道具带群血和单血。这关有空中敌人，推荐使用高角度武器。
+2. BOSS开局时候是无敌的，千万不要攻击它，它会召唤三个憎恨之火。英雄难度下，憎恨之火在外围会有蓝色的小火作为屏障，使得消灭起来更有难度。
+3.利用地形杀掉全部的憎恨之火，否则后患无穷。
+4.采用分开站位，千万不要站在最左边的高台。
+5. BOSS先会单攻离它最近的玩家。然后紧接着群攻我方所有人员，并且附带灼烧（每回合损失生命1000）与疲劳的效果。在下一回合会吸收憎恨之火。一定确保在它吸收之前消灭所有的憎恨之火，否则就不用打了。
+6.如果地图上没有憎恨之火，BOSS会吸收失败，这个时候他进入眩晕状态，并且不再无敌，抓紧在这个时候输出，最好打牛的头部位置，伤害大一些。
+7.一定回合后，BOSS会醒来，并且跳跃攻击其中一个玩家。这个时候被攻击的玩家要走出BOSS的身体范围，然后飞走，其他玩家也要离BOSS远一些，否则下回合BOSS会秒杀它脚下的玩家。
+8.全力击杀BOSS后，他会变身进入狂暴状态。
+9. BOSS狂暴以后，不再无敌。只有两种攻击方式，一种是踩，一种是冲撞。并且不再近身秒杀攻击，离近BOSS也无所谓，队形要保持分开，持续输出，打头部伤害较大。
+10.第一形态BOSS每回合会增加攻击力，所以不要消耗太久，速战速决。第二形态BOSS会疯狂的攻击。两个形态最好都打头部，伤害比较大。此关重点在于队形，切记不要战在一起。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_31">
+					<cx:mod type="full">
+						<cx:name>龙巢之战</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第一关">
+								分开小段距离，全力攻击杀大怪，小怪不用理会他，中途不用加血。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_32">
+					<cx:mod type="full">
+						<cx:name>龙巢之战</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第二关">
+								1.先杀前面拿大炮的，然后再杀最后面的，最后再杀中间的
+2.全力击杀，途中BOSS连续四次攻击后，先怒死一个，需要加次天使。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_33">
+					<cx:mod type="full">
+						<cx:name>龙巢之战</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第三关">
+								1.每人拿3个冰，开始不用飞，稍微走动一下，走到第一个高地就可以。
+2.当有人给棺材锁时，就打了棺材，被锁的人飞回中间靠左的地方，打棺材最好打头部以及中部，避免打飞。
+3.有人给火困在秤砣下时，打了秤砣，两个人秤砣就报废掉。全程注意血不要少于40%。(少于40%被棺材关住有人失误，被关的人必死)
+4.BOSS的攻击依次是：镰刀攻击、棺材、锤子、秤砣、烙铁。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_34">
+					<cx:mod type="full">
+						<cx:name>龙巢之战</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第四关">
+								1.每人3个B。一开始就飞到地图中间靠右的位置（4个人站在一起）
+2.NPC会出冰疙瘩，需要2个冰冰上去，其他人可以继续打。
+3.一体站位，角度65变角力度45、46、47都可以打到，逆风打46力量时，顺风45力量时，是打BOSS红最多的时候（基本多200伤害）。
+4.当BOSS用电击击到4个人时，有怒先怒（怒完要群加），没怒群加。
+5.小龙出来后，要先打了小龙，如果位置太近，可以退后点打。
+6.给龙息吹飞后，需要群加红，随后飞回前面靠右的位置。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_51">
+					<cx:mod type="full">
+						<cx:name>邪神部落</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第一关">
+								千万不要所有人聚集在一起，mt站在队伍的最前端，dps殿后。远程兵攻击比较高，需要注意队伍整体的血量。在规定回合内消灭指定怪物数量即过关。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_52">
+					<cx:mod type="full">
+						<cx:name>邪神部落</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第二关">
+								以补满魔豌豆的生命为过关，所以mt要带盾牌去前面顶，后面的DPS除了要用血枪救治魔豌豆，还得清理远程的小兵，因为它们会攻击魔豌豆。切记两点：第一、DPS千万不要和魔豌豆站在一起，否则会分享血枪；第二、不要一味的杀小怪，因为这关的小怪是无限的。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_53">
+					<cx:mod type="full">
+						<cx:name>邪神部落</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第三关">
+								这关的重点在于同一个回合内我方4人必须杀掉两个BOSS，千万不要一味攻击一个BOSS，要确保它们的血量保持均值减少，否则留下的那个后患会将另外一个被杀死的BOSS复活，并且无限循环。当两个BOSS血量都非常低的情况下，就方便一同解决了。总结：此关要注意敏捷以及BOSS的血量。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+				<cx:part id="part_54">
+					<cx:mod type="full">
+						<cx:name>邪神部落</cx:name>
+						<cx:element type="fubenInfo">
+							<desc label="第四关">
+								BOSS的第一形态，不要站在一起，一定要保持整体的血量。不要去攻击爆炸图腾，一定要先杀掉生命图腾，以免BOSS回血。BOSS变身第二形态后，mt一定要站在魔豌豆那里，一定回合内，BOSS会使用“乾坤大挪移”，打乱玩家们的站位，并且召唤到BOSS身边，这个时候玩家一定要马上飞走，并且组织好队形。稳扎稳打，一定可以战胜邪神。
+							</desc>
+						</cx:element>
+					</cx:mod>
+				</cx:part>
+			</cx:section>
+		</cx:body>
+		<cx:footer/>
+	</cx:page>
+</cx:claxes>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<ui>
+	<style name="home" >
+		<img_wnd_bk>yg_wnd_gamemsg.png</img_wnd_bk>
+		<img_btn_close>yg_btn_closegamemsg.png</img_btn_close>
+		<color_text>0xFE666666</color_text>
+		<color_action>0xFEE95D00</color_action>
+		<color_shadow>0</color_shadow>
+	</style>
+	<style name="game" >
+		<img_wnd_bk>yg_wnd_gamemsg_g.png</img_wnd_bk>
+		<img_btn_close>yg_btn_closegamemsg_g.png</img_btn_close>
+		<color_text>0xFEFF9900</color_text>
+		<color_action>0xFE72DB00</color_action>
+		<color_shadow>0xFE000000</color_shadow>
+	</style>
+</ui>
